@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Tenses - Final Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jameel+Noori+Nastaleeq&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Poppins', 'Jameel Noori Nastaleeq', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        /* Header Styling */
+        .header {
+            text-align: center;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            border-bottom: 5px solid #4f46e5;
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            color: #1e1b4b;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .header p {
+            font-size: 1.1rem;
+            color: #4f46e5;
+            font-weight: 600;
+        }
+
+        /* Chapter Accordion Styling */
+        .chapter {
+            background: #ffffff;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .chapter-header {
+            padding: 20px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: 600;
+            user-select: none;
+        }
+        
+        /* Chapter Colors */
+        .chapter.past .chapter-header { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+        .chapter.present .chapter-header { background: linear-gradient(135deg, #10b981, #047857); }
+        .chapter.future .chapter-header { background: linear-gradient(135deg, #ef4444, #b91c1c); }
+
+        .chapter-header i.arrow {
+            transition: transform 0.3s ease;
+        }
+        .chapter.active .chapter-header i.arrow {
+            transform: rotate(180deg);
+        }
+
+        /* Content List Styling */
+        .chapter-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out;
+            background: #fafafa;
+        }
+        .lesson-list {
+            list-style: none;
+            padding: 10px 20px;
+        }
+        .lesson-item {
+            padding: 15px 20px;
+            margin: 10px 0;
+            background: #ffffff;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+            transition: transform 0.2s, background 0.2s;
+            cursor: pointer;
+            border-right: 4px solid #4f46e5;
+        }
+        .lesson-item:hover {
+            transform: translateX(-5px);
+            background: #f0f3ff;
+        }
+        .lesson-item.quiz {
+            border-right-color: #f59e0b;
+            background: #fffbeb;
+        }
+        .lesson-item.quiz:hover {
+            background: #fef3c7;
+        }
+        .lesson-item span {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #1f2937;
+        }
+        .lesson-item i {
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Main Header -->
+        <div class="header">
+            <h1>📚 طلباء انگلش کورس</h1>
+            <p>کوثر علی گرائمر والا</p>
+        </div>
+
+        <!-- Chapter 1: Past Tenses -->
+        <div class="chapter past">
+            <div class="chapter-header" onclick="toggleChapter(this)">
+                <span>🟦 Chapter 1 — Past Tenses</span>
+                <i class="fas fa-chevron-down arrow"></i>
+            </div>
+            <div class="chapter-content">
+                <ul class="lesson-list">
+                    <li class="lesson-item"><span>1. Past Indefinite</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item"><span>2. Past Continuous</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item"><span>3. Past Perfect</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item"><span>4. Past Perfect Continuous</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item quiz"><span>5. Past Tenses Quiz</span><i class="fas fa-question-circle"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Chapter 2: Present Tenses -->
+        <div class="chapter present">
+            <div class="chapter-header" onclick="toggleChapter(this)">
+                <span>🟩 Chapter 2 — Present Tenses</span>
+                <i class="fas fa-chevron-down arrow"></i>
+            </div>
+            <div class="chapter-content">
+                <ul class="lesson-list">
+                    <li class="lesson-item"><span>1. Present Indefinite</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item"><span>2. Present Continuous</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item"><span>3. Present Perfect</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item"><span>4. Present Perfect Continuous</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item quiz"><span>5. Present Tenses Quiz</span><i class="fas fa-question-circle"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Chapter 3: Future Tenses -->
+        <div class="chapter future">
+            <div class="chapter-header" onclick="toggleChapter(this)">
+                <span>🟥 Chapter 3 — Future Tenses</span>
+                <i class="fas fa-chevron-down arrow"></i>
+            </div>
+            <div class="chapter-content">
+                <ul class="lesson-list">
+                    <li class="lesson-item"><span>1. Future Indefinite</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item"><span>2. Future Continuous</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item"><span>3. Future Perfect</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item"><span>4. Future Perfect Continuous</span><i class="fas fa-book-open"></i></li>
+                    <li class="lesson-item quiz"><span>5. Future Tenses Quiz</span><i class="fas fa-question-circle"></i></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript for Accordion Effect -->
+    <script>
+        function toggleChapter(header) {
+            const chapter = header.parentElement;
+            const content = chapter.querySelector('.chapter-content');
+            
+            // Close other chapters (Optional)
+            document.querySelectorAll('.chapter').forEach(item => {
+                if(item !== chapter) {
+                    item.classList.remove('active');
+                    item.querySelector('.chapter-content').style.maxHeight = null;
+                }
+            });
+
+            // Toggle current chapter
+            chapter.classList.toggle('active');
+            if (chapter.classList.contains('active')) {
+                content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+                content.style.maxHeight = null;
+            }
+        }
+    </script>
+</body>
+</html>
