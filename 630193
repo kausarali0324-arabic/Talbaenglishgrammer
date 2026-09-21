@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>انگلش گرامر کورس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر سیکشن */
+        .header-box {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .main-heading {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .creator-tag {
+            font-size: 15px;
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fde8e8;
+            padding: 6px 16px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        .course-list {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .course-item {
+            margin-bottom: 15px;
+        }
+
+        .course-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #ffffff;
+            border: 2px solid #e0e0e0;
+            padding: 18px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .course-link:hover {
+            background: #3498db;
+            color: #ffffff;
+            border-color: #3498db;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+        }
+
+        .badge {
+            background: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .course-link:hover .badge {
+            background: #ffffff;
+            color: #3498db;
+        }
+
+        /* کاپی رائٹ سیکشن */
+        .footer-copyright {
+            text-align: center;
+            margin-top: 35px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            .course-link {
+                font-size: 16px;
+                padding: 14px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر اور نام -->
+        <div class="header-box">
+            <h1 class="main-heading">انگلش گرامر کورس</h1>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <p class="subtitle">تینسز (Tenses) سیکھنے کے لیے اپنے متعلقہ کورس کا انتخاب کریں:</p>
+        </div>
+
+        <!-- کورسز کی لسٹ (مین ڈیش بورڈ) -->
+        <ul class="course-list">
+            <!-- پریزنٹ ٹینس (اگر بنانا ہو) -->
+            <li class="course-item">
+                <a href="#" class="course-link" style="opacity: 0.6; cursor: not-allowed;">
+                    <span>پریزنٹ ٹینس کورس (Present Tense)</span>
+                    <span class="badge" style="background: #95a5a6;">جلد آرہا ہے</span>
+                </a>
+            </li>
+
+            <!-- پاسٹ ٹینس (جس کا ہم نے الگ ڈیش بورڈ بنایا ہے) -->
+            <li class="course-item">
+                <a href="past_dashboard.html" class="course-link" style="border-color: #3498db;">
+                    <span>پاسٹ ٹینس کورس (Past Tense Dashboard)</span>
+                    <span class="badge">ڈیش بورڈ کھولیں</span>
+                </a>
+            </li>
+
+            <!-- فیوچر ٹینس (اگر بنانا ہو) -->
+            <li class="course-item">
+                <a href="#" class="course-link" style="opacity: 0.6; cursor: not-allowed;">
+                    <span>فیوچر ٹینس کورس (Future Tense)</span>
+                    <span class="badge" style="background: #95a5a6;">جلد آرہا ہے</span>
+                </a>
+            </li>
+        </ul>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس مواد کا کاپی رائٹ صرف مصنف के پاس ہے۔ بغیر تحریری اجازت اسے کاپی کرنا یا ری پبلش کرنا قانونی جرم ہے۔</p>
+        </div>
+    </div>
+
+</body>
+</html>
