@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پریزنٹ کلاس 4: پریزنٹ پرفেকٹ کنٹینیوس ٹینس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fde8e8;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2980b9;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-right: 4px solid #3498db;
+            padding-right: 10px;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            padding-right: 20px;
+        }
+
+        /* ٹیبل ڈیزائن */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: right;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* عربی مثالوں کا خاص بکس */
+        .box-arabic {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .box-arabic h3 {
+            color: #16a085;
+            margin-bottom: 8px;
+        }
+
+        .arabic-example {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #0e6251;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #1abc9c;
+        }
+
+        .formula-box {
+            background: #f4f6f7;
+            border-left: 4px solid #2c3e50;
+            padding: 12px 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 16px;
+            direction: ltr;
+            text-align: left;
+        }
+
+        .quiz-section {
+            background: #fdfefe;
+            border: 2px dashed #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="present_dashboard.html" class="nav-btn">⬅️ پریزنٹ ڈیش بورڈ (Present Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>پریزنٹ کلاس 4: پریزنٹ پرفেকٹ کنٹینیوس ٹینس (Present Perfect Continuous Tense)</h1>
+        <p class="english-sub">(فعل حال جاری بمعہ وقت / Present Perfect Progressive Tense)</p>
+
+        <!-- 1. ٹینس کا نام اور اردو تعریف -->
+        <section>
+            <h2>1. ٹینس کا نام اور تعریف (Tense Name & Definition)</h2>
+            <p><strong>اردو میں تعریف:</strong> ایسا زمانہ (Tense) جس میں موجودہ وقت (Present time) میں کسی کام کا جاری ہونا پایا جائے، لیکن ساتھ ہی اس کام کے شروع ہونے کا وقت (Time/Duration) بھی بیان کیا گیا ہو۔ اس کی سب سے بڑی پہچان یہ ہے کہ اردو جملوں کے آخر میں <strong>رہا ہے، رہی ہے، رہے ہیں</strong> وغیرہ آتا ہے اور فقرے میں وقت یا مدت دی ہوتی ہے (جیسے: وہ دو گھنٹے سے کتاب پڑھ رہا ہے)۔</p>
+            <p><strong>English Definition (انگلش تعریف):</strong> The Present Perfect Continuous Tense (پریزنٹ پرفেকٹ کنٹینیوس ٹینس) is used to describe an action that started in the past (ماضی میں شروع ہوا) and is still continuing (ابھی تک جاری ہے) in the present, with a specific time (مقررہ وقت کے ساتھ)۔</p>
+            
+            <div class="box-arabic">
+                <h3>عربی گرامر کے ساتھ تقابل (Comparison with Arabic Grammar):</h3>
+                <p>عربی زبان میں جب یہ بتانا مقصود ہو کہ کوئی کام اتنے عرصے سے جاری ہے، تو عام طور پر فعل مضارع کے ساتھ <strong>مُنذُ</strong> (بغیر کسی وقت کے نقطے سے) یا <strong>فِرَامَ / خِلَالَ</strong> یا مدت کے اظہار کے لیے ظروفِ زمان کا استعمال کیا جاتا ہے (جیسے: <em>يَقْرَأُ الكِتَابَ مُنْذُ سَاعَتَيْنِ</em> - وہ دو گھنٹے سے کتاب پڑھ رہا ہے)۔ انگریزی کا یہ **Present Perfect Continuous Tense** بالکل اسی عربی ترکیب کے مطابق ہے جس میں وقت کے اظہار کے لیے **Since** اور **For** لائے جاتے ہیں۔</p>
+                <div class="arabic-example">عربی مثال: يَقْرَأُ الطَّالِبُ الدَّرْسَ مُنْذُ سَاعَةٍ (طالبعلم ایک گھنٹے سے سبق پڑھ رہا ہے)</div>
+            </div>
+        </section>
+
+        <!-- 2. استعمال -->
+        <section>
+            <h2>2. استعمال (Uses - استعمالات)</h2>
+            <ul>
+                <li>ایسا کام جو ماضی میں شروع ہوا ہو اور اب بھی جاری ہو (Actions continuing from the past):<br>
+                    - اردو: ہم صبح سے مدرسے میں پڑھ رہے ہیں۔<br>
+                    - English: We have been studying in the Madrassah since morning.<br>
+                    <div class="arabic-example">عربی مثال: نَحْنُ نَدْرُسُ فِي المَدْرَسَةِ مُنْذُ الصَّبَاحِ</div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 3. فارمولا، ہیلپنگ ورب اور ورب کی فارم -->
+        <section>
+            <h2>3. فارمولا، ہیلپنگ ورب اور ورب کی فارم (Formula, Helping Verb & Verb Form)</h2>
+            <p><strong>Helping Verb (امدادی فعل):</strong> اس میں دو امدادی افعال کے ساتھ **Been** کا اضافہ ہوتا ہے: **Has been** اور **Have been**۔<br>
+            - **Has been** کا استعمال: He, She, It اور واحد نام (Singular noun) کے ساتھ۔<br>
+            - **Have been** کا استعمال: I, We, You, They اور جمع ناموں (Plural nouns) کے ساتھ۔<br><br>
+            <strong>Since اور For کا قاعدہ (Important Rule):</strong><br>
+            - **Since** کا استعمال: مقررہ یا متعین وقت (Definite time / Point of time) کے لیے آتا ہے جیسے: صبح سے (Since morning)، دو بجے سے (Since 2 o'clock)، سن 2020 سے (Since 2020)۔<br>
+            - **For** کا استعمال: غیر متعین مدت یا گنتی کے وقت (Period of time / Duration) کے لیے آتا ہے جیسے: دو گھنٹوں سے (For two hours)، چار دنوں سے (For four days)، کئی سالوں سے (For many years)۔</p>
+            
+            <p><strong>Verb Form (فعل کی شکل):</strong> اس میں ہمیشہ **1st Form + ing** (پہلی فارم کے ساتھ آئی این جی) استعمال ہوتی ہے۔</p>
+            
+            <div class="formula-box">
+                Affirmative (مثبت): Subject (فاعل) + has/have + been + Verb (1st Form) + ing + Object (مفعول) + since/for + Time (وقت)<br>
+                Negative (منفی): Subject + has/have + not + been + Verb (1st Form) + ing + Object + since/for + Time<br>
+                Interrogative (سوالیہ): Has/Have + Subject + been + Verb (1st Form) + ing + Object + since/for + Time?
+            </div>
+        </section>
+
+        <!-- 4. چاروں اقسام کی مثالیں (اردو، انگلش، عربی تینوں کے ساتھ) -->
+        <section>
+            <h2>4. جملوں کی چار اقسام اور تینوں زبانوں میں مثالیں (Sentence Types & Examples)</h2>
+            
+            <table>
+                <tr>
+                    <th>قسم (Type)</th>
+                    <th>اردو + English مثال (Urdu & English Example)</th>
+                    <th>عربی موازنہ (Arabic Equivalent)</th>
+                </tr>
+                <tr>
+                    <td><strong>Affirmative (مثبت)</strong></td>
+                    <td>استاد صاحب دو گھنٹے سے تقریر کر رہے ہیں۔<br><em>The teacher has been delivering a speech for two hours.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">يُلْقِي الأُسْتَاذُ الخُطْبَةَ مُنْذُ سَاعَتَيْنِ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative (منفی)</strong></td>
+                    <td>استاد صاحب دو گھنٹے سے تقریر نہیں کر رہے ہیں۔<br><em>The teacher has not been delivering a speech for two hours.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">لَا يُلْقِي الأُسْتَاذُ الخُطْبَةَ مُنْذُ سَاعَتَيْنِ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Interrogative (سوالیہ)</strong></td>
+                    <td>کیا استاد صاحب دو گھنٹے سے تقریر کر رہے ہیں؟<br><em>Has the teacher been delivering a speech for two hours?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">هَلْ يُلْقِي الأُسْتَاذُ الخُطْبَةَ مُنْذُ سَاعَتَيْنِ؟</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative Interrogative (منفی و سوالیہ)</strong></td>
+                    <td>کیا استاد صاحب دو گھنٹے سے تقریر نہیں کر رہے ہیں؟<br><em>Has the teacher not been delivering a speech for two hours?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">أَمَا يُلْقِي الأُسْتَاذُ الخُطْبَةَ مُنْذُ سَاعَتَيْنِ؟</div></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 5. سگنل ورڈز -->
+        <section>
+            <h2>5. سگنل یا ٹائم ورڈز (Signal / Time Words)</h2>
+            <p>یہ الفاظ جملے میں وقت کے ساتھ آئیں تو اس ٹینس کی نشاندہی کرتے ہیں:</p>
+            <p><strong>Since</strong> (فلاں وقت سے)، <strong>For</strong> (اتنی مدت سے)، <strong>All the day / All night</strong> (سارا دن / ساری رات)۔</p>
+        </section>
+
+        <!-- 6. عام غلطیاں -->
+        <section>
+            <h2>6. طلباء کی عام غلطیاں (Common Mistakes & غلطیاں)</h2>
+            <ul>
+                <li><strong>غلطی 1:</strong> متعین وقت (جیسے صبح یا دو بجے) کے ساتھ 'for' لگا دینا (جیسے: <em>He has been reading for morning</em> جو کہ غلط ہے)۔<br><strong>صحیح طریقہ:</strong> متعین وقت کے ساتھ ہمیشہ **Since** آئے گا (<em>He has been reading since morning</em>)۔</li>
+                <li><strong>غلطی 2:</strong> 'Been' کا استعمال بھول جانا (جیسے: <em>He has playing since Monday</em> جو کہ غلط ہے)۔<br><strong>صحیح طریقہ:</strong> 'Has/Have' کے فوراً بعد **been** لازمی آئے گا (<em>He has been playing since Monday</em>)۔</li>
+            </ul>
+        </section>
+
+        <!-- 7. دوسرے Tenses سے فرق -->
+        <section>
+            <h2>7. دوسرے Tenses سے فرق (Difference from Other Tenses)</h2>
+            <p>پریزنٹ کنٹینیوس (Present Continuous) میں صرف کام کا جاری ہونا ہوتا ہے بغیر وقت کے (جیسے: <em>He is reading</em> - وہ پڑھ رہا ہے)، جبکہ پریزنٹ پرفেকٹ کنٹینیوس (Present Perfect Continuous) میں کام کے جاری ہونے کے ساتھ وقت یا مدت بھی بتائی جاتی ہے (جیسے: <em>He has been reading for two hours</em> - وہ دو گھنٹے سے پڑھ رہا ہے)۔</p>
+        </section>
+
+        <!-- 8. پریکٹس ایکسرسائز -->
+        <section class="quiz-section">
+            <h2>8. پریکٹس ایکسرسائز (Practice Exercises)</h2>
+            <p>مدارس کے طلباء کے لیے مشق: ذیل کے جملوں کا انگریزی اور عربی میں ترجمہ کریں:</p>
+            <ol>
+                <li>طالبعلم صبح سے سبق یاد کر رہا ہے۔ (English: The student has been learning the lesson since morning. | Arabic: يَحْفَظُ الطَّالِبُ الدَّرْسَ مُنْذُ الصَّبَاحِ)</li>
+                <li>کیا تم تین گھنٹے سے کھیل رہے ہو؟ (English: Have you been playing for three hours? | Arabic: هَلْ تَلْعَبُ مُنْذُ ثَلَاثِ سَاعَاتٍ؟)</li>
+                <li>ہم کل سے بارش میں نہیں بھیگ رہے ہیں۔ (English: We have not been getting wet in the rain since yesterday. | Arabic: لَا نَبْتَلُّ فِي المَطَرِ مُنْذُ أَمْسِ)</li>
+            </ol>
+            <p style="margin-top: 15px; color: #27ae60; font-weight: bold;">ماشاءاللہ! آپ نے پریزنٹ کلاس 4 کو مکمل اردو، انگریزی اور عربی موازنہ کے ساتھ سمجھ لیا ہے۔ اب اگلی کلاس (پریزنٹ کلاس 5: جامع کوئز) کی طرف قدم بڑھائیں۔</p>
+        </section>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
