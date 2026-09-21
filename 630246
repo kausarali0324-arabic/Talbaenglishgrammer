@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فیوچر کلاس 3: فیوچر پرفیکٹ ٹینس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #8e44ad;
+            font-weight: bold;
+            background: #f4ecf7;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #8e44ad;
+            font-size: 20px;
+            margin-top: 35px;
+            margin-bottom: 12px;
+            border-right: 4px solid #9b59b6;
+            padding-right: 10px;
+            background: #f9f5fb;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 0 5px 5px 0;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-right: 20px;
+            margin-bottom: 15px;
+        }
+
+        /* عربی اور انگلش مثالوں کے بکس */
+        .box-arabic {
+            background: #f4ecf7;
+            border: 1px solid #d7bde2;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .box-arabic h3 {
+            color: #8e44ad;
+            margin-bottom: 8px;
+            font-size: 17px;
+        }
+
+        .arabic-text {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #512e5f;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #9b59b6;
+        }
+
+        .formula-box {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 12px 15px;
+            border-radius: 6px;
+            font-weight: bold;
+            color: #0e6251;
+            margin: 10px 0;
+        }
+
+        .example-box {
+            background: #fcf3cf;
+            border: 1px solid #f9e79f;
+            padding: 12px 15px;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="future_dashboard.html" class="nav-btn">⬅️ فیوچر ڈیش بورڈ (Future Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>فیوچر کلاس 3: فیوچر پرفیکٹ ٹینس</h1>
+        <p class="english-sub">(Future Perfect Tense - فعل مستقبل مکمل)</p>
+
+        <!-- 1. ٹینس کا نام -->
+        <h2>1. ٹینس کا نام (Name of the Tense)</h2>
+        <p>اس ٹینس کا نام **فیوچر پرفیکٹ ٹینس (Future Perfect Tense)** ہے۔ اسے اردو میں **فعل مستقبل مکمل** کہا جاتا ہے۔</p>
+
+        <!-- 2. اردو میں تعریف -->
+        <h2>2. اردو میں تعریف (Definition in Urdu)</h2>
+        <p>ایسا فعل (کام) جو آنے والے زمانے (Future Time) میں کسی خاص مقررہ وقت تک مکمل ہو چکا ہوگا، اسے فیوچر پرفیکٹ ٹینس کہتے ہیں۔ اس کی پہچان یہ ہے کہ اردو جملوں کے آخر میں **چُکا ہوگا، چُکی ہوگی، چُکے ہوں گے** یا **لیا ہوگا، دی ہوگی، کی ہوگی** وغیرہ آتا ہے؛ جیسے: وہ اس وقت تک مدرسہ جا چکا ہوگا، ہم سبق یاد کر چکے ہوں گے۔</p>
+
+        <!-- 3. English Definition -->
+        <h2>3. انگلش تعریف (English Definition)</h2>
+        <p>The **Future Perfect Tense** expresses an action that will be completed by a specific point in the future.</p>
+
+        <!-- 4. استعمال (Uses) -->
+        <h2>4. استعمال (Uses of Future Perfect)</h2>
+        <p>یہ ٹینس مندرجہ ذیل مواقع پر استعمال ہوتا ہے:</p>
+        <ul>
+            <li>آنے والے وقت میں کسی معینہ مدت یا وقت سے پہلے کسی کام کے مکمل ہونے کا یقین دلانے کے لیے۔</li>
+            <li>مستقبل کے دو کاموں میں سے ایک کام کے دوسرے کام سے پہلے ختم ہو جانے کو ظاہر کرنے کے لیے۔</li>
+        </ul>
+
+        <!-- 5. Structure / Formula -->
+        <h2>5. بناوٹ / فارمولا (Structure / Formula)</h2>
+        <p>اس ٹینس میں جملہ بنانے کی ترتیب درج ذیل ہوتی ہے:</p>
+        <div class="formula-box">
+            بنیادی اصول: Subject (فاعل/کام کرنے والا) + Helping Verbs (مددگار افعال: Will have / Shall have) + Verb (تیسری فارم) + Object (مفعول/جس پر کام ہو)۔
+        </div>
+
+        <!-- 6. Helping Verb -->
+        <h2>6. مددگار فعل (Helping Verbs)</h2>
+        <p>اس ٹینس میں مددگار افعال **Will have** اور **Shall have** استعمال ہوتے ہیں:</p>
+        <ul>
+            <li><strong>Will have (ول ہیو):</strong> یہ تمام فاعلین (He, She, It, They, You اور اسمِ ظاہر) کے ساتھ استعمال ہوتا ہے۔</li>
+            <li><strong>Shall have (شیل ہیو):</strong> یہ متکلم کے صیغوں (I اور We) کے ساتھ استعمال ہوتا ہے۔</li>
+        </ul>
+
+        <!-- 7. Verb کی کون سی Form استعمال ہوگی -->
+        <h2>7. فعل کی کون سی فارم استعمال ہوگی؟ (Form of Verb)</h2>
+        <p>اس ٹینس میں ہمیشہ **فعل کی تیسری فارم (3rd Form of Verb / Past Participle)** استعمال ہوتی ہے؛ جیسے: Gone (جا چکا), Read (پڑھ چکا), Written (لکھ چکا)۔</p>
+
+        <!-- 8. Affirmative Sentences -->
+        <h2>8. مثبت جملے (Affirmative / Positive Sentences)</h2>
+        <p>مثبت جملے بنانے کے لیے فاعل کے بعد Will have یا Shall have اور ورب کی تیسری فارم لگائی جاتی ہے۔</p>
+        <div class="example-box">
+            <p><strong>اردو:</strong> زید کل اس وقت تک مدرسہ جا چکا ہوگا۔</p>
+            <p><strong>English:</strong> Zaid will have gone to the Madrassah by this time tomorrow.</p>
+            <div class="arabic-text">عربی مثال: لَقَدْ يَكُونُ زَيْدٌ ذَهَبَ إِلَى المَدْرَسَةِ قَبْلَ هَذَا الوَقْتِ غَدًا۔</div>
+        </div>
+
+        <!-- 9. Negative Sentences -->
+        <h2>9. منفی جملے (Negative Sentences)</h2>
+        <p>منفی جملے بنانے کے لیے **Will** یا **Shall** کے فوراً بعد **not** لگایا جاتا ہے اور پھر **have** لکھا جاتا ہے (یعنی Will not have یا Shall not have)۔</p>
+        <div class="formula-box">فارمولا: Subject + Will/Shall + **not** + have + Verb (3rd Form) + Object</div>
+        <div class="example-box">
+            <p><strong>اردو:</strong> طلباء شام تک سبق نہیں یاد کر چکے ہوں گے۔</p>
+            <p><strong>English:</strong> The students will not have learned the lesson by evening.</p>
+            <div class="arabic-text">عربی مثال: لَا يَكُونُ الطَّلَبَةُ حَفِظُوا الدَّرْسَ إِلَى المَسَاءِ۔</div>
+        </div>
+
+        <!-- 10. Interrogative Sentences -->
+        <h2>10. سوالیہ جملے (Interrogative Sentences)</h2>
+        <p>سوالیہ جملے بنانے کے لیے **Will** یا **Shall** کو فقرے کے شروع میں لایا جاتا ہے، فاعل کے بعد **have** لگایا جاتا ہے، اور آخر میں سوالیہ نشان (?) آتا ہے۔</p>
+        <div class="formula-box">فارمولا: **Will/Shall** + Subject + **have** + Verb (3rd Form) + Object + ?</div>
+        <div class="example-box">
+            <p><strong>اردو:</strong> کیا تم کل تک قرآن پاک کی تلاوت کر چکے ہو گے؟</p>
+            <p><strong>English:</strong> Will you have recited the Holy Quran by tomorrow?</p>
+            <div class="arabic-text">عربی مثال: هَلْ سَتَكُونُ قَدْ قَرَأْتَ القُرْآنَ الكَرِيمَ غَدًا؟</div>
+        </div>
+
+        <!-- 11. Negative Interrogative -->
+        <h2>11. منفی سوالیہ جملے (Negative Interrogative Sentences)</h2>
+        <p>ایسے جملے جن میں سوال بھی ہو اور انکار بھی، ان میں فاعل کے فوراً بعد **not** اور پھر **have** لگایا جاتا ہے۔</p>
+        <div class="example-box">
+            <p><strong>اردو:</strong> کیا استاد صاحب دو بجے تک سبق نہیں پڑھا چکے ہوں گے؟</p>
+            <p><strong>English:</strong> Will the teacher not have taught the lesson by 2 o'clock?</p>
+            <div class="arabic-text">عربی مثال: أَلَمْ يَكُنِ الأُسْتَاذُ قَدْ دَرَّسَ الدَّرْسَ إِلَى السَّاعَةِ الثَّانِيَةِ؟</div>
+        </div>
+
+        <!-- 12. اردو + English مثالیں -->
+        <h2>12. مزید اردو، انگلش اور عربی مثالیں (More Examples)</h2>
+        <div class="example-box">
+            <p><strong>1. اردو:</strong> ہم اگلے سال تک حج ادا کر چکے ہوں گے۔</p>
+            <p><strong>English:</strong> We will have performed Hajj by next year.</p>
+            <div class="arabic-text">عربی مثال: نَحْنُ سَنَكُونُ قَدْ أَدَّيْنَا الحَجَّ فِي السَّنَةِ القَادِمَةِ۔</div>
+        </div>
+        <div class="example-box">
+            <p><strong>2. اردو:</strong> سورج غروب ہو چکا ہوگا۔</p>
+            <p><strong>English:</strong> The sun will have set.</p>
+            <div class="arabic-text">عربی مثال: سَتَكُونُ الشَّمْسُ قَدْ غَرَبَتْ۔</div>
+        </div>
+
+        <!-- 13. Signal/Time Words -->
+        <h2>13. وقت بتانے والے الفاظ (Signal / Time Words)</h2>
+        <p>ان الفاظ سے اندازہ ہوتا ہے کہ جملہ فیوچر پرفیکٹ کا ہے:</p>
+        <ul>
+            <li><strong>By this time tomorrow (بائی دس ٹائم ٹمورو):</strong> آنے والے کل اس وقت تک (عربی: بِهَذَا الوَقْتِ غَدًا)</li>
+            <li><strong>By (بائی):</strong> تک (جیسے: By Monday, By 5 PM - عربی: إِلَى حُدُودِ / قَبْلَ)</li>
+        </ul>
+
+        <!-- 14. عام غلطیاں (Common Mistakes) -->
+        <h2>14. طلباء کی عام غلطیاں (Common Mistakes)</h2>
+        <p>مدارس کے طلباء اکثر درج ذیل غلطیاں کرتے ہیں، جن سے بچنا ضروری ہے:</p>
+        <ul>
+            <li><strong>غلطی:</strong> He will have went. (have کے بعد دوسری فارم لگانا)۔<br><strong>درست:</strong> He will have **gone**. (اس ٹینس میں have کے بعد ہمیشہ ورب کی تیسری فارم آتی ہے)۔</li>
+        </ul>
+
+        <!-- 15. دوسرے Tenses سے فرق اور عربی گرامر سے موازنہ -->
+        <h2>15. دوسرے Tenses سے فرق اور عربی گرامر سے تقابل (Comparison & Contrast)</h2>
+        
+        <div class="box-arabic">
+            <h3>عربی گرامر کے ساتھ موازنہ (Comparison with Arabic Grammar)</h3>
+            <p>عربی زبان میں فعلِ ماضی کے شروع میں حرفِ تحقیق **(قَدْ)** لانے سے فعلِ ماضی قریب یا مکمل کے معنی پختہ ہوجاتے ہیں، اور مستقبل کے ساتھ جوڑنے کے لیے <strong>قَدْ يَكُونُ فَعَلَ</strong> کا اسلوب استعمال ہوتا ہے؛ جیسے: <strong>سَيَكُونُ قَدْ ذَهَبَ</strong> (وہ جا چکا ہوگا)۔ انگریزی میں اس کے لیے **Will have + 3rd Form** لایا جاتا ہے۔</p>
+            <div class="arabic-text">العربية: سَيَكُونُ حَامِدٌ قَدْ ذَهَبَ = English: Hamid will have gone.</div>
+        </div>
+
+        <!-- Practice Exercises -->
+        <h2>16. مشقی سوالات (Practice Exercises)</h2>
+        <p>طلباء درج ذیل جملوں کا انگریزی اور عربی میں ترجمہ کر کے اپنی کاپی میں مشق کریں:</p>
+        <ul>
+            <li>1. حامد کل تک مکتب جا چکا ہوگا۔ (English: Hamid will have gone to Maktab by tomorrow. | Arabic: سَيَكُونُ حَامِدٌ قَدْ ذَهَبَ إِلَى المَكْتَبِ غَدًا)</li>
+            <li>2. کیا طلباء دوپہر تک سبق یاد کر چکے ہوں گے؟ (English: Will the students have learned the lesson by noon? | Arabic: هَلْ سَيَكُونُ الطَّلَبَةُ قَدْ حَفِظُوا الدَّرْسَ إِلَى الظُّهْرِ؟)</li>
+            <li>3. ہم شام تک یہ کتاب نہیں پڑھ چکے ہوں گے۔ (English: We will not have read this book by evening. | Arabic: لَنْ نَكُونَ قَدْ قَرَأْنَا هَذَا الكِتَابَ إِلَى المَسَاءِ)</li>
+        </ul>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
