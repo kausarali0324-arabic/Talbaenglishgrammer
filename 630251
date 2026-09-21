@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فیوچر کلاس 5: انٹرایکٹو کوئز - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #8e44ad;
+            font-weight: bold;
+            background: #f4ecf7;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #8e44ad;
+            font-size: 20px;
+            margin-top: 35px;
+            margin-bottom: 12px;
+            border-right: 4px solid #9b59b6;
+            padding-right: 10px;
+            background: #f9f5fb;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 0 5px 5px 0;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-right: 20px;
+            margin-bottom: 15px;
+        }
+
+        .quiz-box {
+            background: #eef9f5;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .quiz-box p {
+            font-weight: bold;
+            color: #0e6251;
+        }
+
+        .options-list {
+            list-style-type: none;
+            margin: 10px 0;
+            padding-right: 0;
+        }
+
+        .options-list li {
+            background: #ffffff;
+            border: 1px solid #d1f2eb;
+            padding: 8px 12px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        /* بٹن کی اسٹائلنگ */
+        .reveal-btn {
+            background: #8e44ad;
+            color: #ffffff;
+            border: none;
+            padding: 8px 15px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .reveal-btn:hover {
+            background: #6c3483;
+        }
+
+        /* پوشیدہ جواب والا حصہ */
+        .hidden-answer {
+            display: none;
+            margin-top: 10px;
+            padding: 12px;
+            background: #fcf3cf;
+            border: 1px solid #f9e79f;
+            border-radius: 5px;
+        }
+
+        .answer-key {
+            color: #c0392b;
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .arabic-text {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #512e5f;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #9b59b6;
+        }
+
+        .box-arabic {
+            background: #f4ecf7;
+            border: 1px solid #d7bde2;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+    <script>
+        function toggleAnswer(id) {
+            var ans = document.getElementById(id);
+            if (ans.style.display === "block") {
+                ans.style.display = "none";
+            } else {
+                ans.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="future_dashboard.html" class="nav-btn">⬅️ فیوچر ڈیش بورڈ (Future Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>فیوچر کلاس 5: انٹرایکٹو کوئز اور مشق</h1>
+        <p class="english-sub">(Future Tense Interactive Quiz - فعل مستقبل کا چھپا ہوا کوئز)</p>
+
+        <!-- مقدمہ -->
+        <h2>تعارف اور ہدایات (Introduction & Instructions)</h2>
+        <p>اس کلاس میں فیوچر ٹینس (Future Tense) کی چاروں اقسام کی جانچ کے لیے **دس (10) خالی جگہیں مع آپشنز** دی گئی ہیں۔ طالب علم پہلے خود صحیح آپشن کا انتخاب کرے، اور پھر نیچے دیے گئے **بٹن** پر کلک کر کے درست جواب اور عربی موازنہ ظاہر کرے۔</p>
+
+        <!-- کوئز سوالات -->
+        <h2>مشقی کوئز: خالی جگہیں پر کریں (Fill in the Blanks Quiz)</h2>
+
+        <!-- سوال 1 -->
+        <div class="quiz-box">
+            <p>1. Zaid ______ go to the Madrassah tomorrow. (زید کل مدرسہ جائے گا۔)</p>
+            <ul class="options-list">
+                <li>الف) will</li>
+                <li>ب) will have</li>
+                <li>ج) will be</li>
+                <li>د) shall</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans1')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans1" class="hidden-answer">
+                <div class="answer-key">درست جواب: الف) will (کیونکہ یہ فیوچر انڈیفینیٹ ٹینس ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: سَيَذْهَبُ زَيْدٌ إِلَى المَدْرَسَةِ غَدًا۔</div>
+            </div>
+        </div>
+
+        <!-- سوال 2 -->
+        <div class="quiz-box">
+            <p>2. The students ______ learning the lesson at this time tomorrow. (طلباء کل اس وقت سبق پڑھ رہے ہوں گے۔)</p>
+            <ul class="options-list">
+                <li>الف) will learn</li>
+                <li>ب) will be</li>
+                <li>ج) will have been</li>
+                <li>د) will have</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans2')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans2" class="hidden-answer">
+                <div class="answer-key">درست جواب: ب) will be (فیوچر کنٹینیوس ٹینس میں verb+ing آتی ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: سَيَكُونُ الطَّلَبَةُ يَحْفَظُونَ الدَّرْسَ فِي هَذَا الوَقْتِ۔</div>
+            </div>
+        </div>
+
+        <!-- سوال 3 -->
+        <div class="quiz-box">
+            <p>3. We ______ gone to Hajj by next year. (ہم اگلے سال تک حج پر جا چکے ہوں گے۔)</p>
+            <ul class="options-list">
+                <li>الف) shall go</li>
+                <li>ب) shall be</li>
+                <li>ج) shall have</li>
+                <li>د) shall have been</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans3')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans3" class="hidden-answer">
+                <div class="answer-key">درست جواب: ج) shall have (فیوچر پرفیکٹ ٹینس میں تیسری فارم استعمال ہوتی ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: نَحْنُ سَنَكُونُ قَدْ أَدَّيْنَا الحَجَّ فِي السَّنَةِ القَادِمَةِ۔</div>
+            </div>
+        </div>
+
+        <!-- سوال 4 -->
+        <div class="quiz-box">
+            <p>4. Hamid ______ been writing a book since morning. (حامد صبح سے کتاب لکھ رہا ہوگا۔)</p>
+            <ul class="options-list">
+                <li>الف) will have</li>
+                <li>ب) will have been</li>
+                <li>ج) will be</li>
+                <li>د) will</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans4')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans4" class="hidden-answer">
+                <div class="answer-key">درست جواب: ب) will have been (فیوچر پرفیکٹ کنٹینیوس ٹینس میں وقت کے ساتھ since آتا ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: سَيَكُونُ حَامِدٌ يَكْتُبُ الكِتَابَ مُنْذُ الصَّبَاحِ۔</div>
+            </div>
+        </div>
+
+        <!-- سوال 5 -->
+        <div class="quiz-box">
+            <p>5. Will you ______ the Holy Quran tomorrow? (کیا تم کل قرآن پاک کی تلاوت کرو گے؟)</p>
+            <ul class="options-list">
+                <li>الف) recites</li>
+                <li>ب) recited</li>
+                <li>ج) recite</li>
+                <li>د) reciting</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans5')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans5" class="hidden-answer">
+                <div class="answer-key">درست جواب: ج) recite (فیوچر انڈیفینیٹ میں سوالیہ فقرے کے ساتھ فعل کی پہلی فارم آتی ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: هَلْ تَقْرَأُ القُرْآنَ الكَرِيمَ غَدًا؟</div>
+            </div>
+        </div>
+
+        <!-- سوال 6 -->
+        <div class="quiz-box">
+            <p>6. It ______ raining since morning. (صبح سے بارش ہو رہی ہوگی۔)</p>
+            <ul class="options-list">
+                <li>الف) will have been</li>
+                <li>ب) will be</li>
+                <li>ج) will have</li>
+                <li>د) will</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans6')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans6" class="hidden-answer">
+                <div class="answer-key">درست جواب: الف) will have been (مستقبل مکمل جاری کے لیے یہ مددگار فعل ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: سَتَكُونُ السَّمَاءُ تُمْطِرُ مُنْذُ الصَّبَاحِ۔</div>
+            </div>
+        </div>
+
+        <!-- سوال 7 -->
+        <div class="quiz-box">
+            <p>7. The sun ______ rise from the east. (سورج مشرق سے نکلے گا۔)</p>
+            <ul class="options-list">
+                <li>الف) shall</li>
+                <li>ب) will</li>
+                <li>ج) is</li>
+                <li>د) has</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans7')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans7" class="hidden-answer">
+                <div class="answer-key">درست جواب: ب) will (عام طور پر تمام فاعلین کے ساتھ اب will کا استعمال ہوتا ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: تَطْلُعُ الشَّمْسُ مِنَ المَشْرِقِ۔</div>
+            </div>
+        </div>
+
+        <!-- سوال 8 -->
+        <div class="quiz-box">
+            <p>8. What ______ you be doing at 5 PM tomorrow? (تم کل شام پانچ بجے کیا کر رہے ہو گے؟)</p>
+            <ul class="options-list">
+                <li>الف) will</li>
+                <li>ب) shall</li>
+                <li>ج) do</li>
+                <li>د) did</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans8')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans8" class="hidden-answer">
+                <div class="answer-key">درست جواب: الف) will (You کے ساتھ will استعمال ہوتا ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: مَاذَا سَتَكُونُ تَفْعَلُ غَدًا عِنْدَ السَّاعَةِ الخَامِسَةِ؟</div>
+            </div>
+        </div>
+
+        <!-- سوال 9 -->
+        <div class="quiz-box">
+            <p>9. By next Monday, we ______ finished our book. (اگلے پیر تک ہم اپنی کتاب ختم کر چکے ہوں گے۔)</p>
+            <ul class="options-list">
+                <li>الف) will have</li>
+                <li>ب) will be</li>
+                <li>ج) will</li>
+                <li>د) shall have</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans9')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans9" class="hidden-answer">
+                <div class="answer-key">درست جواب: د) shall have (متکلم We کے ساتھ shall have آتا ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: إِلَى يَوْمِ الِاثْنَيْنِ القَادِمِ، سَنَكُونُ قَدْ أَنْهَيْنَا كِتَابَنَا۔</div>
+            </div>
+        </div>
+
+        <!-- سوال 10 -->
+        <div class="quiz-box">
+            <p>10. The teacher will not ______ the lesson tomorrow. (استاد کل سبق نہیں پڑھائیں گے۔)</p>
+            <ul class="options-list">
+                <li>الف) teaches</li>
+                <li>ب) taught</li>
+                <li>ج) teach</li>
+                <li>د) teaching</li>
+            </ul>
+            <button class="reveal-btn" onclick="toggleAnswer('ans10')">جواب اور عربی وضاحت دیکھیں</button>
+            <div id="ans10" class="hidden-answer">
+                <div class="answer-key">درست جواب: ج) teach (will کے بعد ہمیشہ ورب کی پہلی فارم آتی ہے)۔</div>
+                <div class="arabic-text">عربی موازنہ: لَنْ يُدَرِّسَ الأُسْتَاذُ الدَّرْسَ غَدًا۔</div>
+            </div>
+        </div>
+
+        <!-- عربی گرامر کا خلاصہ -->
+        <div class="box-arabic">
+            <h3>عربی گرامر اور انگریزی کا خلاصہ (Summary & Conclusion)</h3>
+            <p>طلباء کے لیے یاد رکھنے کا قاعدہ یہ ہے کہ انگریزی کے چاروں فیوچر ٹینسز (Future Tenses) عربی کے حروفِ استقبال **(سـ / سَوْفَ)**، افعالِ مقاربہ اور ظروفِ زمان کے ساتھ نہایت گہرے درجے مطابقت رکھتے ہیں۔</p>
+        </div>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
