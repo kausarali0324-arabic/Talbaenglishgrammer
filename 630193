@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>انگلش گرامر کورس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .creator-tag {
+            text-align: center;
+            font-size: 15px;
+            color: #8e44ad;
+            font-weight: bold;
+            background: #f4ecf7;
+            padding: 6px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 0 auto 25px auto;
+        }
+
+        .center-box {
+            text-align: center;
+        }
+
+        .intro-text {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* کورس کے کارڈز */
+        .course-card {
+            background: #ffffff;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            background: #fbfcfc;
+            transition: 0.3s;
+        }
+
+        .course-info h3 {
+            font-size: 20px;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .course-info p {
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+
+        .action-btn {
+            background: #3498db;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .action-btn:hover {
+            background: #2980b9;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>انگلش گرامر کورس</h1>
+        <div class="center-box">
+            <div class="creator-tag">پیشکش: کوثر علی گرامر والا</div>
+        </div>
+        
+        <p class="intro-text">ٹینسز (Tenses) سیکھنے کے لیے اپنے متعلقہ کورس کا انتخاب کریں:</p>
+
+        <!-- پریزنٹ ٹینس کورس -->
+        <div class="course-card">
+            <div class="course-info">
+                <h3>پریزنٹ ٹینس کورس (Present Tense Dashboard)</h3>
+                <p>حال کے زمانے کے تمام قواعد، کلاسز اور کوئز</p>
+            </div>
+            <div>
+                <a href="present_dashboard.html" class="action-btn">ڈیش بورڈ کھولیں</a>
+            </div>
+        </div>
+
+        <!-- پاسٹ ٹینس کورس -->
+        <div class="course-card">
+            <div class="course-info">
+                <h3>پاسٹ ٹینس کورس (Past Tense Dashboard)</h3>
+                <p>ماضی کے زمانے کے تمام قواعد اور کلاسز</p>
+            </div>
+            <div>
+                <a href="past_dashboard.html" class="action-btn">ڈیش بورڈ کھولیں</a>
+            </div>
+        </div>
+
+        <!-- فیوچر ٹینس کورس -->
+        <div class="course-card">
+            <div class="course-info">
+                <h3>فیوچر ٹینس کورس (Future Tense Dashboard)</h3>
+                <p>مستقبل کے زمانے کے تمام قواعد، کلاسز اور کوئز</p>
+            </div>
+            <div>
+                <a href="future_dashboard.html" class="action-btn">ڈیش بورڈ کھولیں</a>
+            </div>
+        </div>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
