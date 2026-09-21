@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پاسٹ کلاس 1: پاسٹ انڈیفینیٹ ٹینس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fde8e8;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2980b9;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-right: 4px solid #3498db;
+            padding-right: 10px;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            padding-right: 20px;
+        }
+
+        /* ٹیبل ڈیزائن */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: right;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* عربی مثالوں کا خاص بکس */
+        .box-arabic {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .box-arabic h3 {
+            color: #16a085;
+            margin-bottom: 8px;
+        }
+
+        .arabic-example {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #0e6251;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #1abc9c;
+        }
+
+        .formula-box {
+            background: #f4f6f7;
+            border-left: 4px solid #2c3e50;
+            padding: 12px 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 16px;
+            direction: ltr;
+            text-align: left;
+        }
+
+        .quiz-section {
+            background: #fdfefe;
+            border: 2px dashed #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="past_dashboard.html" class="nav-btn">⬅️ پاسٹ ڈیش بورڈ</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم</a>
+        </div>
+
+        <h1>پاسٹ کلاس 1: پاسٹ انڈیفینیٹ ٹینس (Past Indefinite Tense)</h1>
+        <p class="english-sub">(فعل ماضی مطلق / Simple Past Tense)</p>
+
+        <!-- 1. اردو، انگریزی اور عربی تعریف -->
+        <section>
+            <h2>1. تعریف (Definition & التعریف)</h2>
+            <p><strong>اردو تعریف:</strong> ایسا زمانہ جس میں گزرے ہوئے وقت میں کسی کام کا کرنا یا ہونا پایا جائے۔</p>
+            <p><strong>English Definition (انگلش تعریف):</strong> Used to express an action completed in the past.</p>
+            
+            <div class="box-arabic">
+                <h3>عربی تعریف اور مثال (Arabic Definition):</h3>
+                <p>هو الفعل الذي دل على حدث وقع في زمن قبل الزمان الحاضر (وہ فعل جو ایسے کام پر دلالت کرے جو موجودہ زمانے سے پہلے واقع ہوا ہو، یعنی فعل ماضی مطلق)۔</p>
+                <div class="arabic-example">عربی مثال: ضَرَبَ زَيْدٌ (زید نے مارا)</div>
+            </div>
+        </section>
+
+        <!-- 2. استعمال -->
+        <section>
+            <h2>2. استعمال (Uses & الاستعمالات)</h2>
+            <ul>
+                <li>ماضی کے کسی کام کے لیے (Past Action):<br>
+                    - اردو: اس نے خط لکھا۔<br>
+                    - English: He wrote a letter.<br>
+                    <div class="arabic-example">عربی موازنہ: كَتَبَ رِسَالَةً</div>
+                </li>
+                <li>ماضی کی عادت کے لیے (Past Habit):<br>
+                    - اردو: وہ سچ بولتا تھا۔<br>
+                    - English: He always spoke the truth.<br>
+                    <div class="arabic-example">عربی موازنہ: كَانَ يَصْدُقُ (أو كَانَ يَتَكَلَّمُ بِالصِّدْقِ)</div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 3. فارمولا اور ہیلپنگ ورب -->
+        <section>
+            <h2>3. فارمولا، ہیلپنگ ورب اور ورب کی فارم</h2>
+            <p><strong>Helping Verb (امدادی فعل):</strong> مثبت جملوں میں کوئی امدادی فعل نہیں آتا، منفی اور سوالیہ میں <strong>Did</strong> آتا ہے۔</p>
+            <p><strong>Verb Form (فعل کی شکل):</strong> مثبت میں <strong>2nd Form</strong> اور منفی/سوالیہ میں <strong>1st Form</strong> آتی ہے۔</p>
+            
+            <div class="formula-box">
+                Affirmative: Subject + Verb (2nd Form) + Object<br>
+                Negative: Subject + did not + Verb (1st Form) + Object<br>
+                Interrogative: Did + Subject + Verb (1st Form) + Object?
+            </div>
+        </section>
+
+        <!-- 4. چاروں اقسام کی مثالیں (اردو، انگلش، عربی تینوں کے ساتھ) -->
+        <section>
+            <h2>4. جملوں کی اقسام اور تینوں زبانوں میں مثالیں</h2>
+            
+            <table>
+                <tr>
+                    <th>قسم (Type)</th>
+                    <th>اردو + English مثال</th>
+                    <th>عربی موازنہ (Arabic Equivalent)</th>
+                </tr>
+                <tr>
+                    <td><strong>Affirmative (مثبت)</strong></td>
+                    <td>زید نے مدد کی۔<br><em>Zaid helped.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">نَصَرَ زَيْدٌ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative (منفی)</strong></td>
+                    <td>زید نے مدد نہیں کی۔<br><em>Zaid did not help.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">مَا نَصَرَ زَيْدٌ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Interrogative (سوالیہ)</strong></td>
+                    <td>کیا زید نے مدد کی؟<br><em>Did Zaid help?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">هَل نَصَرَ زَيْدٌ؟</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative Interrogative (منفی و سوالیہ)</strong></td>
+                    <td>کیا زید نے مدد نہیں کی؟<br><em>Did Zaid not help?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">أَمَا نَصَرَ زَيْدٌ؟ / هَلْ لَمْ يَنْصُرْ زَيْدٌ؟</div></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 5. سگنل ورڈز -->
+        <section>
+            <h2>5. سگنل یا ٹائم ورڈز (Time Words)</h2>
+            <p><strong>Yesterday</strong> (گزشتہ کل / أَمْسِ)، <strong>Last night</strong> (پچھلی رات / اللَّيْلَةَ المَاضِيَةَ)، <strong>Ago</strong> (پہلے / قَبْلُ)۔</p>
+        </section>
+
+        <!-- 6. عام غلطیاں -->
+        <section>
+            <h2>6. طلباء کی عام غلطیاں (Common Mistakes)</h2>
+            <p>منفی یا سوالیہ میں 'Did' کے بعد 2nd فارم لگانا غلط ہے (جیسے: <em>Did he went?</em>)۔ درست طریقہ یہ ہے کہ Did کے بعد ہمیشہ 1st فارم آئے (جیسے: <em>Did he go?</em>)، بالکل جیسے عربی میں حرفِ نفی (ما / لم) آنے پر فعلِ ماضی کا صیغہ بدل جاتا ہے۔</p>
+        </section>
+
+        <!-- 7. پریکٹس ایکسرسائز اور کوئز -->
+        <section class="quiz-section">
+            <h2>7. پریکٹس ایکسرسائز (Practice & Exercises)</h2>
+            <p>ذیل کے جملوں کا انگریزی اور عربی میں ترجمہ کریں:</p>
+            <ol>
+                <li>اس نے کتاب پڑھی۔ (English: He read a book. | Arabic: قَرَأَ كِتَابًا)</li>
+                <li>کیا حامد نے کھانا کھایا؟ (English: Did Hamid eat food? | Arabic: هَلْ أَكَلَ حَامِدٌ الطَّعَامَ؟)</li>
+                <li>ہم نے مسجد میں نماز نہیں پڑھی۔ (English: We did not pray in the mosque. | Arabic: مَا صَلَّيْنَا فِي المَسْجِدِ)</li>
+            </ol>
+            <p style="margin-top: 15px; color: #27ae60; font-weight: bold;">مبارک ہو! آپ نے پاسٹ انڈیفینیٹ کو اردو، انگلش اور عربی تینوں زبانوں کے اصولوں کے ساتھ سمجھ لیا ہے۔</p>
+        </section>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+        </div>
+    </div>
+
+</body>
+</html>
