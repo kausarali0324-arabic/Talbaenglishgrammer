@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پریزنٹ کلاس 1: پریزنٹ انڈیفینیٹ ٹینس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fde8e8;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2980b9;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-right: 4px solid #3498db;
+            padding-right: 10px;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            padding-right: 20px;
+        }
+
+        /* ٹیبل ڈیزائن */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: right;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* عربی مثالوں کا خاص بکس */
+        .box-arabic {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .box-arabic h3 {
+            color: #16a085;
+            margin-bottom: 8px;
+        }
+
+        .arabic-example {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #0e6251;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #1abc9c;
+        }
+
+        .formula-box {
+            background: #f4f6f7;
+            border-left: 4px solid #2c3e50;
+            padding: 12px 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 16px;
+            direction: ltr;
+            text-align: left;
+        }
+
+        .quiz-section {
+            background: #fdfefe;
+            border: 2px dashed #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="present_dashboard.html" class="nav-btn">⬅️ پریزنٹ ڈیش بورڈ (Present Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>پریزنٹ کلاس 1: پریزنٹ انڈیفینیٹ ٹینس (Present Indefinite Tense)</h1>
+        <p class="english-sub">(فعل حال مطلق / Simple Present Tense)</p>
+
+        <!-- 1. ٹینس کا نام اور اردو تعریف -->
+        <section>
+            <h2>1. ٹینس کا نام اور تعریف (Tense Name & Definition)</h2>
+            <p><strong>اردو میں تعریف:</strong> ایسا زمانہ (Tense) جس میں موجودہ وقت (Present time) میں کسی کام کا کرنا، ہونا یا عادت کا پایا جانا ظاہر ہو، لیکن وقت کا تعین نہ ہو۔ اس کی سب سے بڑی پہچان یہ ہے کہ اردو جملوں کے آخر میں <strong>تا ہے، تی ہے، تے ہیں، تا ہوں</strong> وغیرہ آتا ہے۔ (جیسے: وہ کتاب پڑھتا ہے)</p>
+            <p><strong>English Definition (انگلش تعریف):</strong> The Present Indefinite Tense (پریزنٹ انڈیفینیٹ ٹینس) is used to express habitual actions (عادتیں), general truths (عمومی حقائق), and permanent states (دائمی حالتیں)۔</p>
+            
+            <div class="box-arabic">
+                <h3>عربی گرامر کے ساتھ تقابل (Comparison with Arabic Grammar):</h3>
+                <p>عربی زبان میں جو کام موجودہ یا آئندہ زمانے میں ہو اور اس میں استمرار یا تجدد پایا جائے اسے <strong>فعل مضارع</strong> کہا جاتا ہے (جیسے: <em>يَكْتُبُ</em> - وہ لکھتا ہے یا لکھے گا)۔ انگریزی کا یہ **Present Indefinite Tense** بالکل عربی کے فعل مضارع کے ہم معنی ہے، جس میں روزمرہ کے کام اور مستقل عادتیں بیان کی جاتی ہیں۔</p>
+                <div class="arabic-example">عربی مثال: يَكْتُبُ زَيْدٌ الرِّسَالَةَ (زید خط لکھتا ہے / يكتُبُ)</div>
+            </div>
+        </section>
+
+        <!-- 2. استعمال -->
+        <section>
+            <h2>2. استعمال (Uses - استعمالات)</h2>
+            <ul>
+                <li>عادت یا روزمرہ کے کاموں کے لیے (Habitual actions):<br>
+                    - اردو: میں صبح سویرے اٹھتا ہوں۔<br>
+                    - English: I get up early in the morning.<br>
+                    <div class="arabic-example">عربی مثال: أَسْتَيْقِظُ مُبَكِّرًا فِي الصَّبَاحِ</div>
+                </li>
+                <li>دائمی سچائی یا کائناتی حقائق کے لیے (Universal truths):<br>
+                    - اردو: سورج مشرق سے نکلتا ہے۔<br>
+                    - English: The sun rises in the east.<br>
+                    <div class="arabic-example">عربی مثال: تَطْلُعُ الشَّمْسُ مِنَ المَشْرِقِ</div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 3. فارمولا، ہیلپنگ ورب اور ورب کی فارم -->
+        <section>
+            <h2>3. فارمولا، ہیلپنگ ورب اور ورب کی فارم (Formula, Helping Verb & Verb Form)</h2>
+            <p><strong>Helping Verb (امدادی فعل):</strong> اس کے مثبت (Affirmative) جملوں میں کوئی امدادی فعل استعمال نہیں ہوتا! البتہ منفی (Negative) اور سوالیہ (Interrogative) جملوں میں **Do** اور **Does** استعمال ہوتے ہیں:<br>
+            - **Does** کا استعمال: He, She, It اور واحد نام (Singular noun) کے ساتھ۔<br>
+            - **Do** کا استعمال: I, We, You, They اور جمع ناموں (Plural nouns) کے ساتھ۔</p>
+            <p><strong>Verb Form (فعل کی شکل):</strong> اس میں ہمیشہ **1st Form of Verb** (فعل کی پہلی شکل) استعمال ہوتی ہے۔ البتہ مثبت جملوں میں اگر فاعل واحد غائب (He, She, It یا واحد اسم) ہو تو ورب کے آخر میں **s** یا **es** کا اضافہ کیا جاتا ہے۔</p>
+            
+            <div class="formula-box">
+                Affirmative (مثبت): Subject (فاعل) + Verb (1st Form) + s/es (اگر فاعل واحد غائب ہو) + Object (مفعول)<br>
+                Negative (منفی): Subject + do/does + not + Verb (1st Form) + Object<br>
+                Interrogative (سوالیہ): Do/Does + Subject + Verb (1st Form) + Object?
+            </div>
+        </section>
+
+        <!-- 4. چاروں اقسام کی مثالیں (اردو، انگلش، عربی تینوں کے ساتھ) -->
+        <section>
+            <h2>4. جملوں کی چار اقسام اور تینوں زبانوں میں مثالیں (Sentence Types & Examples)</h2>
+            
+            <table>
+                <tr>
+                    <th>قسم (Type)</th>
+                    <th>اردو + English مثال (Urdu & English Example)</th>
+                    <th>عربی موازنہ (Arabic Equivalent)</th>
+                </tr>
+                <tr>
+                    <td><strong>Affirmative (مثبت)</strong></td>
+                    <td>طالب علم سبق یاد کرتا ہے۔<br><em>The student learns the lesson.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">يَحْفَظُ الطَّالِبُ الدَّرْسَ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative (منفی)</strong></td>
+                    <td>طالب علم سبق یاد نہیں کرتا ہے۔<br><em>The student does not learn the lesson.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">لَا يَحْفَظُ الطَّالِبُ الدَّرْسَ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Interrogative (سوالیہ)</strong></td>
+                    <td>کیا طالب علم سبق یاد کرتا ہے؟<br><em>Does the student learn the lesson?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">هَلْ يَحْفَظُ الطَّالِبُ الدَّرْسَ؟</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative Interrogative (منفی و سوالیہ)</strong></td>
+                    <td>کیا طالب علم سبق یاد نہیں کرتا ہے؟<br><em>Does the student not learn the lesson?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">أَمَا يَحْفَظُ الطَّالِبُ الدَّرْسَ؟</div></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 5. سگنل ورڈز -->
+        <section>
+            <h2>5. سگنل یا ٹائم ورڈز (Signal / Time Words)</h2>
+            <p>یہ الفاظ جملے میں آئیں تو پریزنٹ انڈیفینیٹ کی نشاندہی کرتے ہیں:</p>
+            <p><strong>Always</strong> (ہمیشہ)، <strong>Usually</strong> (عموماً)، <strong>Often</strong> (اکثر)، <strong>Every day</strong> (ہر روز)، <strong>Normally</strong> (عام طور پر)۔</p>
+        </section>
+
+        <!-- 6. عام غلطیاں -->
+        <section>
+            <h2>6. طلباء کی عام غلطیاں (Common Mistakes & غلطیاں)</h2>
+            <ul>
+                <li><strong>غلطی 1:</strong> واحد غائب (He, She, It) کے ساتھ 'does not' لگاتے وقت ورب کے ساتھ 's' یا 'es' باقی رکھنا (جیسے: <em>He does not goes</em> جو کہ غلط ہے)۔<br><strong>صحیح طریقہ:</strong> جب 'does' آ جائے تو ورب سے 's/es' ختم کر دیا جاتا ہے (<em>He does not go</em>)۔</li>
+                <li><strong>غلطی 2:</strong> جمع فاعل (We, You, They) یا 'I' کے ساتھ ورب کے ساتھ 's' لگا دینا (جیسے: <em>I eats</em> جو کہ غلط ہے)۔<br><strong>صحیح طریقہ:</strong> 'I' اور جمع کے ساتھ صرف پہلی فارم آئے گی (<em>I eat</em>)۔</li>
+            </ul>
+        </section>
+
+        <!-- 7. دوسرے Tenses سے فرق -->
+        <section>
+            <h2>7. دوسرے Tenses سے فرق (Difference from Other Tenses)</h2>
+            <p>پریزنٹ انڈیفینیٹ (Present Indefinite) عادت اور روزمرہ کے کاموں کو ظاہر کرتا ہے (جیسے: <em>He reads</em> - وہ پڑھتا ہے)، جبکہ پریزنٹ کنٹینیوس (Present Continuous) میں موجودہ وقت میں کام کا جاری ہونا پایا جاتا ہے (جیسے: <em>He is reading</em> - وہ اس وقت پڑھ رہا ہے)۔</p>
+        </section>
+
+        <!-- 8. پریکٹس ایکسرسائز -->
+        <section class="quiz-section">
+            <h2>8. پریکٹس ایکسرسائز (Practice Exercises)</h2>
+            <p>مدارس کے طلباء کے لیے مشق: ذیل کے جملوں کا انگریزی اور عربی میں ترجمہ کریں:</p>
+            <ol>
+                <li>استاد مدرسے میں پڑھاتے ہیں۔ (English: The teacher teaches in the Madrassah. | Arabic: يُدَرِّسُ الأُسْتَاذُ فِي المَدْرَسَةِ)</li>
+                <li>کیا تم عربی بولتے ہو؟ (English: Do you speak Arabic? | Arabic: هَلْ تَتَكَلَّمُ اللُّغَةَ العَرَبِيَّةَ؟)</li>
+                <li>ہم جھوٹ نہیں بولتے ہیں۔ (English: We do not tell a lie. | Arabic: لَا نَكْذِبُ)</li>
+            </ol>
+            <p style="margin-top: 15px; color: #27ae60; font-weight: bold;">ماشاءاللہ! آپ نے پریزنٹ کلاس 1 کو مکمل اردو، انگریزی اور عربی موازنہ کے ساتھ سمجھ لیا ہے۔ اب اگلی کلاس (پریزنٹ کنٹینیوس) کی طرف قدم بڑھائیں۔</p>
+        </section>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
