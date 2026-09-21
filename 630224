@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پاسٹ کلاس 5: جامع کوئز اور مشق - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fde8e8;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #27ae60;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-right: 4px solid #27ae60;
+            padding-right: 10px;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        /* کوئز سوالات کے انداز */
+        .quiz-card {
+            background: #f9fbfb;
+            border: 1px solid #d4efdf;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .question-text {
+            font-size: 17px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .options-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .opt-btn {
+            background: #ffffff;
+            border: 2px solid #bdc3c7;
+            padding: 8px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: all 0.2s ease;
+        }
+
+        .opt-btn:hover {
+            border-color: #27ae60;
+            background: #e8f8f5;
+        }
+
+        .feedback {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .arabic-hint {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 16px;
+            color: #16a085;
+            margin-top: 5px;
+        }
+
+        /* عربی موازنہ بکس */
+        .box-arabic {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .box-arabic h3 {
+            color: #16a085;
+            margin-bottom: 8px;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="past_dashboard.html" class="nav-btn">⬅️ پاسٹ ڈیش بورڈ (Past Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>پاسٹ کلاس 5: جامع کوئز اور مشق (Comprehensive Quiz & Practice)</h1>
+        <p class="english-sub">(تمام پاسٹ ٹینसेस کا خلاصہ اور ٹیسٹ)</p>
+
+        <div class="box-arabic">
+            <h3>مدارس کے طلباء کے لیے اہم نوٹ (Important Note):</h3>
+            <p>اس مشق میں آپ سے پاسٹ کے چاروں زمانوں (Past Indefinite, Past Continuous, Past Perfect, Past Perfect Continuous) کے متعلق سوالات کیے گئے ہیں۔ ہر سوال کے نیچے عربی موازنہ بھی درج ہے تاکہ آپ گرامر کی روح کو اچھی طرح سمجھ سکیں۔</p>
+        </div>
+
+        <h2>مشق: خالی جگہیں پر کریں (Fill in the Blanks with Correct Options)</h2>
+
+        <!-- سوال 1 -->
+        <div class="quiz-card" id="q1">
+            <div class="question-text">1. He ________ a letter yesterday. (اس نے کل خط لکھا۔)</div>
+            <div class="arabic-hint">عربی موازنہ: كَتَبَ (فعل ماضی مطلق)</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(1, 'a', 'b')">a) write</button>
+                <button class="opt-btn" onclick="checkAnswer(1, 'b', 'b')">b) wrote</button>
+                <button class="opt-btn" onclick="checkAnswer(1, 'c', 'b')">c) written</button>
+            </div>
+            <div class="feedback" id="fb1"></div>
+        </div>
+
+        <!-- سوال 2 -->
+        <div class="quiz-card" id="q2">
+            <div class="question-text">2. They ________ not play cricket last Monday. (انہوں نے پچھلے پیر کو کرکٹ نہیں کھیلی۔)</div>
+            <div class="arabic-hint">عربی موازنہ: مَا لَعِبُوا (فعل ماضی منفی بنصرہ یا لم)</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(2, 'a', 'a')">a) did</button>
+                <button class="opt-btn" onclick="checkAnswer(2, 'b', 'a')">b) do</button>
+                <button class="opt-btn" onclick="checkAnswer(2, 'c', 'a')">c) were</button>
+            </div>
+            <div class="feedback" id="fb2"></div>
+        </div>
+
+        <!-- سوال 3 -->
+        <div class="quiz-card" id="q3">
+            <div class="question-text">3. What ________ you doing at that time? (اس وقت آپ کیا کر رہے تھے؟)</div>
+            <div class="arabic-hint">عربی موازنہ: مَاذَا كُنْتَ تَفْعَلُ؟ (فعل ماضی استمراری)</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(3, 'a', 'c')">a) is</button>
+                <button class="opt-btn" onclick="checkAnswer(3, 'b', 'c')">b) are</button>
+                <button class="opt-btn" onclick="checkAnswer(3, 'c', 'c')">c) were</button>
+            </div>
+            <div class="feedback" id="fb3"></div>
+        </div>
+
+        <!-- سوال 4 -->
+        <div class="quiz-card" id="q4">
+            <div class="question-text">4. The students ________ learning their lessons when I came. (طلبا اپنا سبق یاد کر رہے تھے جب میں آیا۔)</div>
+            <div class="arabic-hint">عربی موازنہ: كَانَ الطَّلَبَةُ يَتَعَلَّمُونَ</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(4, 'a', 'b')">a) was</button>
+                <button class="opt-btn" onclick="checkAnswer(4, 'b', 'b')">b) were</button>
+                <button class="opt-btn" onclick="checkAnswer(4, 'c', 'b')">c) had</button>
+            </div>
+            <div class="feedback" id="fb4"></div>
+        </div>
+
+        <!-- سوال 5 -->
+        <div class="quiz-card" id="q5">
+            <div class="question-text">5. She ________ cooked food before the guests arrived. (مہمانوں کے آنے سے پہلے وہ کھانا پک چکی تھی۔)</div>
+            <div class="arabic-hint">عربی موازنہ: كَانَتْ قَدْ طَبَخَتِ الطَّعَامَ (فعل ماضی بعید)</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(5, 'a', 'c')">a) has</button>
+                <button class="opt-btn" onclick="checkAnswer(5, 'b', 'c')">b) have</button>
+                <button class="opt-btn" onclick="checkAnswer(5, 'c', 'c')">c) had</button>
+            </div>
+            <div class="feedback" id="fb5"></div>
+        </div>
+
+        <!-- سوال 6 -->
+        <div class="quiz-card" id="q6">
+            <div class="question-text">6. Had you ________ the Quran before going to sleep? (کیا سونے سے پہلے آپ قرآن پڑھ چکے تھے؟)</div>
+            <div class="arabic-hint">عربی موازنہ: هَلْ كُنْتَ قَدْ قَرَأْتَ القُرْآنَ؟</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(6, 'a', 'a')">a) read</button>
+                <button class="opt-btn" onclick="checkAnswer(6, 'b', 'a')">b) reading</button>
+                <button class="opt-btn" onclick="checkAnswer(6, 'c', 'a')">c) reads</button>
+            </div>
+            <div class="feedback" id="fb6"></div>
+        </div>
+
+        <!-- سوال 7 -->
+        <div class="quiz-card" id="q7">
+            <div class="question-text">7. It ________ raining since morning. (صبح سے بارش ہو رہی تھی۔)</div>
+            <div class="arabic-hint">عربی موازنہ: كَانَتِ السَّمَاءُ تُمْطِرُ مُنْذُ الصَّبَاحِ</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(7, 'a', 'b')">a) has been</button>
+                <button class="opt-btn" onclick="checkAnswer(7, 'b', 'b')">b) had been</button>
+                <button class="opt-btn" onclick="checkAnswer(7, 'c', 'b')">c) was being</button>
+            </div>
+            <div class="feedback" id="fb7"></div>
+        </div>
+
+        <!-- سوال 8 -->
+        <div class="quiz-card" id="q8">
+            <div class="question-text">8. We had ________ waiting for the teacher for two hours. (ہم دو گھنٹے سے استاد کا انتظار کر رہے تھے۔)</div>
+            <div class="arabic-hint">عربی موازنہ: كُنَّا نَنْتَظِرُ الأُسْتَاذَ مُنْذُ سَاعَتَيْنِ</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(8, 'a', 'a')">a) been</button>
+                <button class="opt-btn" onclick="checkAnswer(8, 'b', 'a')">b) being</button>
+                <button class="opt-btn" onclick="checkAnswer(8, 'c', 'a')">c) be</button>
+            </div>
+            <div class="feedback" id="fb8"></div>
+        </div>
+
+        <!-- سوال 9 -->
+        <div class="quiz-card" id="q9">
+            <div class="question-text">9. Did the teacher ________ the lesson? (کیا استاد نے سبق پڑھایا؟)</div>
+            <div class="arabic-hint">عربی موازنہ: هَلْ دَرَّسَ الأُسْتَاذُ الدَّرْسَ؟</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(9, 'a', 'a')">a) explain</button>
+                <button class="opt-btn" onclick="checkAnswer(9, 'b', 'a')">b) explained</button>
+                <button class="opt-btn" onclick="checkAnswer(9, 'c', 'a')">c) explaining</button>
+            </div>
+            <div class="feedback" id="fb9"></div>
+        </div>
+
+        <!-- سوال 10 -->
+        <div class="quiz-card" id="q10">
+            <div class="question-text">10. The boys ________ playing in the playground when it started to rain. (لڑکے میدان میں کھیل رہے تھے جب بارش شروع ہوئی۔)</div>
+            <div class="arabic-hint">عربی موازنہ: كَانَ الأَوْلَادُ يَلْعَبُونَ</div>
+            <div class="options-group">
+                <button class="opt-btn" onclick="checkAnswer(10, 'a', 'c')">a) is</button>
+                <button class="opt-btn" onclick="checkAnswer(10, 'b', 'c')">b) was</button>
+                <button class="opt-btn" onclick="checkAnswer(10, 'c', 'c')">c) were</button>
+            </div>
+            <div class="feedback" id="fb10"></div>
+        </div>
+
+        <!-- جاوا اسکریپٹ برائے انٹرایکٹو جوابات -->
+        <script>
+            function checkAnswer(qNum, selected, correct) {
+                const fb = document.getElementById('fb' + qNum);
+                if (selected === correct) {
+                    fb.style.color = "#27ae60";
+                    fb.innerHTML = "✅ بالکل درست! (Correct)";
+                } else {
+                    fb.style.color = "#e74c3c";
+                    fb.innerHTML = "❌ غلط جواب، دوبارہ کوشش کریں۔ (Incorrect)";
+                }
+            }
+        </script>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
