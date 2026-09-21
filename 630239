@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فیوچر ٹینسز مین ڈیش بورڈ - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f0f3f4;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #8e44ad;
+            font-weight: bold;
+            background: #f4ecf7;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        /* تعارفی بکس */
+        .intro-box {
+            background: #f4ecf7;
+            border: 1px solid #d7bde2;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .intro-box h3 {
+            color: #8e44ad;
+            margin-bottom: 10px;
+        }
+
+        .arabic-text {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #512e5f;
+            background: #ffffff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            border-right: 3px solid #9b59b6;
+        }
+
+        /* سیکشن ہیڈنگز */
+        h2 {
+            color: #8e44ad;
+            font-size: 22px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            border-right: 4px solid #9b59b6;
+            padding-right: 10px;
+        }
+
+        /* گرید لے آؤٹ فار کلاسز اینڈ ٹینسز */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #fdfefe;
+            border: 1px solid #e8daef;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(142, 68, 173, 0.15);
+        }
+
+        .card h3 {
+            color: #512e5f;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-link {
+            display: inline-block;
+            background: #9b59b6;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .card-link:hover {
+            background: #7d3c98;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="present_dashboard.html" class="nav-btn">◀️ پریزنٹ ڈیش بورڈ</a>
+        </div>
+
+        <h1>فیوچر ٹینسز مین ڈیش بورڈ</h1>
+        <p class="english-sub">(Future Tenses Main Dashboard - Complete Guide & Classes)</p>
+
+        <div class="intro-box">
+            <h3>خوش آمدید! (Welcome to Future Tenses Module)</h3>
+            <p>یہ ڈیش بورڈ فیوچر (Future Tenses) کے تمام اسباق، گرامر کے اصول، اور جامع کوئز کا مرکز ہے۔ طلباء اس صفحے سے تمام متعلقہ اسباق تک رسائی حاصل کر سکتے ہیں۔</p>
+            <div class="arabic-text">العربية: هَذَا اللَّوْحَةُ الرَّئِيسِيَّةُ لِأَزْمِنَةِ الِاسْتِقْبَالِ (فعل مستقبل کے تمام ابواب کا مرکزی صفحہ)</div>
+        </div>
+
+        <!-- سیکشن 1: فیوچر کے چاروں بنیادی زمانوں کی کلاسز -->
+        <h2>1. فیوچر کے چار بنیادی زمانیں (Core Future Tenses)</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>فیوچر انڈیفینیٹ ٹینس</h3>
+                <p>Future Indefinite Tense (فعل مستقبل قریب/مطلق - گا، گی، گے)</p>
+                <a href="future_class1.html" class="card-link">سبق ملاحظہ کریں ➔</a>
+            </div>
+
+            <div class="card">
+                <h3>فیوچر کنٹینیوس ٹینس</h3>
+                <p>Future Continuous Tense (فعل مستقبل جاری - رہا ہوگا، رہی ہوگی)</p>
+                <a href="future_class2.html" class="card-link">سبق ملاحظہ کریں ➔</a>
+            </div>
+
+            <div class="card">
+                <h3>فیوچر پرفیکٹ ٹینس</h3>
+                <p>Future Perfect Tense (فعل مستقبل مکمل - چکا ہوگا، چکی ہوگی)</p>
+                <a href="future_class3.html" class="card-link">سبق ملاحظہ کریں ➔</a>
+            </div>
+
+            <div class="card">
+                <h3>فیوچر پرفیکٹ کنٹینیوس</h3>
+                <p>Future Perfect Continuous (فعل مستقبل مکمل جاری - وقت کا ذکر)</p>
+                <a href="future_class4.html" class="card-link">سبق ملاحظہ کریں ➔</a>
+            </div>
+        </div>
+
+        <!-- سیکشن 2: جامع مشق اور کوئز -->
+        <h2>2. جامع مشق اور کوئز (Comprehensive Quiz & Practice)</h2>
+        <div class="grid-container">
+            <div class="card" style="border-color: #f39c12; background: #fef9e7;">
+                <h3 style="color: #d68910;">فیوچر کلاس 5: جامع کوئز</h3>
+                <p>تمام فیوچر ٹینسز کی مشق اور 10 خالی جگہوں والا خودکار کوئز۔</p>
+                <a href="future_class5.html" class="card-link" style="background: #f39c12;">کوئز حل کریں ➔</a>
+            </div>
+        </div>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
