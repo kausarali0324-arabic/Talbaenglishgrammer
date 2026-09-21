@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پاسٹ کلاس 4: پاسٹ پرفেকٹ کنٹینیوس ٹینس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fde8e8;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2980b9;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-right: 4px solid #3498db;
+            padding-right: 10px;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            padding-right: 20px;
+        }
+
+        /* ٹیبل ڈیزائن */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: right;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* عربی مثالوں کا خاص بکس */
+        .box-arabic {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .box-arabic h3 {
+            color: #16a085;
+            margin-bottom: 8px;
+        }
+
+        .arabic-example {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #0e6251;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #1abc9c;
+        }
+
+        .formula-box {
+            background: #f4f6f7;
+            border-left: 4px solid #2c3e50;
+            padding: 12px 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 16px;
+            direction: ltr;
+            text-align: left;
+        }
+
+        .quiz-section {
+            background: #fdfefe;
+            border: 2px dashed #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 35px;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="past_dashboard.html" class="nav-btn">⬅️ پاسٹ ڈیش بورڈ (Past Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>پاسٹ کلاس 4: پاسٹ پرفেকٹ کنٹینیوس ٹینس (Past Perfect Continuous Tense)</h1>
+        <p class="english-sub">(فعل ماضی استمراری بعید / Past Perfect Progressive Tense)</p>
+
+        <!-- 1. ٹینس کا نام اور تعریف -->
+        <section>
+            <h2>1. ٹینس کا نام اور تعریف (Tense Name & Definition)</h2>
+            <p><strong>اردو میں تعریف:</strong> ایسا زمانہ (Tense) جس میں ماضی (Past) کے کسی وقت میں کوئی کام شروع ہوا ہو اور کچھ مدت تک جاری رہنے کے بعد ماضی ہی میں جاری رہا ہو یا ختم ہوا ہو، اور ساتھ میں وقت یا مدت (Time duration) کا ذکر بھی پایا جائے۔ اس کی پہچان یہ ہے کہ اردو جملوں کے آخر میں <strong>رہا تھا، رہی تھی، رہے تھے</strong> وغیرہ آتا ہے اور فقرے میں وقت کا ذکر (جیسے صبح سے، دو گھنٹے سے) ہوتا ہے۔ (جیسے: وہ دو گھنٹے سے خط لکھ رہا تھا)</p>
+            <p><strong>English Definition (انگلش تعریف):</strong> The Past Perfect Continuous Tense (پاسٹ پرفেকٹ کنٹینیوس ٹینس) is used to describe an action that started in the past and continued up to another point in the past (ماضی میں کسی وقت شروع ہو کر ماضی ہی میں کچھ عرصہ جاری رہنے والا کام)۔</p>
+            
+            <div class="box-arabic">
+                <h3>عربی گرامر کے ساتھ تقابل (Comparison with Arabic Grammar):</h3>
+                <p>عربی زبان میں جب کسی کام کے ماضی میں ایک مدت تک جاری رہنے کا بیان کرنا ہو تو عام طور پر <strong>مُذْ</strong> یا <strong>مُنْذُ</strong> (since/for کے معنوں میں) کا استعمال کر کے فعل ماضی استمراری یا جملہ بنایا جاتا ہے۔ انگریزی میں اس کے لیے **had been** اور ورب کے ساتھ **ing** کے ساتھ وقت کی تعیین کے لیے **Since** یا **For** لایا جاتا ہے۔</p>
+                <div class="arabic-example">عربی مثال: كَانَ زَيْدٌ يَكْتُبُ الرِّسَالَةَ مُنْذُ سَاعَتَيْنِ (زید دو گھنٹے سے خط لکھ رہا تھا)</div>
+            </div>
+        </section>
+
+        <!-- 2. استعمال -->
+        <section>
+            <h2>2. استعمال (Uses - استعمالات)</h2>
+            <ul>
+                <li>ماضی میں کسی ایسے کام کے لیے جو ماضی کے کسی خاص وقت سے شروع ہو کر جاری رہا ہو (Action continuing for a duration of time in the past):<br>
+                    - اردو: وہ صبح سے بارش ہو رہی تھی۔<br>
+                    - English: It had been raining since morning.<br>
+                    <div class="arabic-example">عربی مثال: كَانَتِ السَّمَاءُ تُمْطِرُ مُنْذُ الصَّباحِ</div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 3. فارمولا، ہیلپنگ ورب اور ورب کی فارم -->
+        <section>
+            <h2>3. فارمولا، ہیلپنگ ورب اور ورب کی فارم (Formula, Helping Verb & Verb Form)</h2>
+            <p><strong>Helping Verb (امدادی فعل):</strong> اس میں امدادی فعل **had been** استعمال ہوتا ہے (جو تمام فاعلین کے ساتھ یکساں آتا ہے)۔<br>
+            - **Since** کا استعمال: مقررہ وقت (Point of time - جیسے صبح سے، پیر سے، 2010 سے) کے لیے۔<غیرمقررہ یا نامعلوم مدت><br>
+            - **For** کا استعمال: غیر مقررہ مدت (Period of time - جیسے دو گھنٹے سے، کئی دنوں سے، چار سال سے) کے لیے۔</p>
+            <p><strong>Verb Form (فعل کی شکل):</strong> اس میں ہمیشہ **1st Form + ing** استعمال ہوتی ہے۔</p>
+            
+            <div class="formula-box">
+                Affirmative (مثبت): Subject (فاعل) + had been + Verb (1st Form) + ing + Object (مفعول) + since/for + Time (وقت)<br>
+                Negative (منفی): Subject + had + not + been + Verb (1st Form) + ing + Object + since/for + Time<br>
+                Interrogative (سوالیہ): Had + Subject + been + Verb (1st Form) + ing + Object + since/for + Time?
+            </div>
+        </section>
+
+        <!-- 4. چاروں اقسام کی مثالیں (اردو، انگلش، عربی تینوں کے ساتھ) -->
+        <section>
+            <h2>4. جملوں کی چار اقسام اور تینوں زبانوں میں مثالیں (Sentence Types & Examples)</h2>
+            
+            <table>
+                <tr>
+                    <th>قسم (Type)</th>
+                    <th>اردو + English مثال (Urdu & English Example)</th>
+                    <th>عربی موازنہ (Arabic Equivalent)</th>
+                </tr>
+                <tr>
+                    <td><strong>Affirmative (مثبت)</strong></td>
+                    <td>طلبا دو گھنٹے سے پڑھ رہے تھے۔<br><em>Students had been reading for two hours.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">كَانَ الطَّلَبَةُ يَقْرَؤُونَ مُنْذُ سَاعَتَيْنِ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative (منفی)</strong></td>
+                    <td>طلبا دو گھنٹے سے نہیں پڑھ رہے تھے۔<br><em>Students had not been reading for two hours.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">لَمْ يَكُنِ الطَّلَبَةُ يَقْرَؤُونَ مُنْذُ سَاعَتَيْنِ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Interrogative (سوالیہ)</strong></td>
+                    <td>کیا طلبا دو گھنٹے سے پڑھ رہے تھے؟<br><em>Had students been reading for two hours?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">هَلْ كَانَ الطَّلَبَةُ يَقْرَؤُونَ مُنْذُ سَاعَتَيْنِ؟</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative Interrogative (منفی و سوالیہ)</strong></td>
+                    <td>کیا طلبا دو گھنٹے سے نہیں پڑھ رہے تھے؟<br><em>Had students not been reading for two hours?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">أَمَا كَانَ الطَّلَبَةُ يَقْرَؤُونَ مُنْذُ سَاعَتَيْنِ؟</div></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 5. سگنل ورڈز -->
+        <section>
+            <h2>5. سگنل یا ٹائم ورڈز (Signal / Time Words)</h2>
+            <p><strong>Since</strong> (مقررہ وقت کے لیے)، <strong>For</strong> (مدت کے لیے)، اور جملے میں وقت کا پایا جانا اس ٹینس کی بڑی نشانی ہے۔</p>
+        </section>
+
+        <!-- 6. عام غلطیاں -->
+        <section>
+            <h2>6. طلباء کی عام غلطیاں (Common Mistakes & غلطیاں)</h2>
+            <ul>
+                <li><strong>غلطی 1:</strong> 'Since' کی جگہ 'For' یا 'For' کی جگہ 'Since' کا غلط استعمال کرنا۔<br><strong>صحیح طریقہ:</strong> پکا وقت ہو تو 'Since' اور مدت ہو تو 'For' لگائیں۔</li>
+                <li><strong>غلطی 2:</strong> 'had been' کی بجائے صرف 'was/were' لگا دینا جبکہ فقرے میں وقت موجود ہو۔<br><strong>صحیح طریقہ:</strong> وقت والے جاری جملوں میں ہمیشہ **had been** ہی آئے گا۔</li>
+            </ul>
+        </section>
+
+        <!-- 7. دوسرے Tenses سے فرق -->
+        <section>
+            <h2>7. دوسرے Tenses سے فرق (Difference from Other Tenses)</h2>
+            <p>پاسٹ کنٹینیوس (Past Continuous) میں وقت کا ذکر نہیں ہوتا (جیسے: <em>He was reading</em> - وہ پڑھ رہا تھا)، جبکہ پاسٹ پرفেকٹ کنٹینیوس (Past Perfect Continuous) میں وقت یا مدت کا ذکر لازمی ہوتا ہے (جیسے: <em>He had been reading for two hours</em> - وہ دو گھنٹے سے پڑھ رہا تھا)۔</p>
+        </section>
+
+        <!-- 8. پریکٹس ایکسرسائز اور کوئز -->
+        <section class="quiz-section">
+            <h2>8. پریکٹس ایکسرسائز اور کلاس کوئز (Practice Exercises & Quiz)</h2>
+            <p>مدارس کے طلباء کے لیے مشق: ذیل کے جملوں کا انگریزی اور عربی میں ترجمہ کریں:</p>
+            <ol>
+                <li>وہ صبح سے قرآن پاک پڑھ رہا تھا۔ (English: He had been reading the Holy Quran since morning. | Arabic: كَانَ يَقْرَأُ القُرْآنَ الكَرِيمَ مُنْذُ الصَّبَاحِ)</li>
+                <li>کیا بارش دو گھنٹے سے ہو رہی تھی؟ (English: Had it been raining for two hours? | Arabic: هَلْ كَانَتِ السَّمَاءُ تُمْطِرُ مُنْذُ سَاعَتَيْنِ؟)</li>
+                <li>ہم کل سے سفر نہیں کر رہے تھے۔ (English: We had not been traveling since yesterday. | Arabic: مَا كُنَّا نُسَافِرُ مُنْذُ أَمْسِ)</li>
+            </ol>
+            <p style="margin-top: 15px; color: #27ae60; font-weight: bold;">مبارک ہو! آپ نے پاسٹ کے تمام چاروں ٹینसेस (Past Tenses) مکمل اردو، انگریزی اور عربی موازنہ کے ساتھ سمجھ لیے ہیں۔ اب آپ کوئز اور مشق کی طرف جا سکتے ہیں۔</p>
+        </section>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
