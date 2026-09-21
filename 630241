@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فیوچر کلاس 1: فیوچر انڈیفینیٹ ٹینس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #8e44ad;
+            font-weight: bold;
+            background: #f4ecf7;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #8e44ad;
+            font-size: 20px;
+            margin-top: 35px;
+            margin-bottom: 12px;
+            border-right: 4px solid #9b59b6;
+            padding-right: 10px;
+            background: #f9f5fb;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 0 5px 5px 0;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-right: 20px;
+            margin-bottom: 15px;
+        }
+
+        /* عربی اور انگلش مثالوں کے بکس */
+        .box-arabic {
+            background: #f4ecf7;
+            border: 1px solid #d7bde2;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .box-arabic h3 {
+            color: #8e44ad;
+            margin-bottom: 8px;
+            font-size: 17px;
+        }
+
+        .arabic-text {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #512e5f;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #9b59b6;
+        }
+
+        .formula-box {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 12px 15px;
+            border-radius: 6px;
+            font-weight: bold;
+            color: #0e6251;
+            margin: 10px 0;
+        }
+
+        .example-box {
+            background: #fcf3cf;
+            border: 1px solid #f9e79f;
+            padding: 12px 15px;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="future_dashboard.html" class="nav-btn">⬅️ فیوچر ڈیش بورڈ (Future Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>فیوچر کلاس 1: فیوچر انڈیفینیٹ ٹینس</h1>
+        <p class="english-sub">(Future Indefinite / Simple Future Tense - فعل مستقبل مطلق)</p>
+
+        <!-- 1. ٹینس کا نام -->
+        <h2>1. ٹینس کا نام (Name of the Tense)</h2>
+        <p>اس ٹینس کا نام **فیوچر انڈیفینیٹ ٹینس (Future Indefinite Tense)** یا **سمپل فیوچر ٹینس (Simple Future Tense)** ہے۔ اسے اردو میں **فعل مستقبل مطلق** یا **فعل مستقبل قریب** کہا جاتا ہے۔</p>
+
+        <!-- 2. اردو میں تعریف -->
+        <h2>2. اردو میں تعریف (Definition in Urdu)</h2>
+        <p>ایسا فعل (کام) جس میں کسی کام کا کرنا یا ہونا آنے والے زمانے (Future Time) میں پایا جائے، اسے فیوچر انڈیفینیٹ ٹینس کہتے ہیں۔ اس کی پہچان یہ ہے کہ اردو جملوں کے آخر میں **گا، گی، گے** وغیرہ آتا ہے؛ جیسے: وہ مدرسے جائے گا، ہم سبق پڑھیں گے۔</p>
+
+        <!-- 3. English Definition -->
+        <h2>3. انگلش تعریف (English Definition)</h2>
+        <p>The **Future Indefinite Tense** expresses an action that will occur in the future. It denotes a planned or simple action happening later than the present time.</p>
+
+        <!-- 4. استعمال (Uses) -->
+        <h2>4. استعمال (Uses of Future Indefinite)</h2>
+        <p>یہ ٹینس مندرجہ ذیل مواقع پر استعمال ہوتا ہے:</p>
+        <ul>
+            <li>آنے والے وقت میں کسی عام کام کے ارادے یا واقع ہونے کو ظاہر کرنے کے لیے۔</li>
+            <li>موقع پر کسی کام کا فیصلہ کرنے کے لیے (Instant Decision)۔</li>
+            <li>مستقبل کے بارے میں کوئی پیشگوئی (Prediction) کرنے کے لیے۔</li>
+        </ul>
+
+        <!-- 5. Structure / Formula -->
+        <h2>5. بناوٹ / فارمولا (Structure / Formula)</h2>
+        <p>اس ٹینس میں جملہ بنانے کی ترتیب درج ذیل ہوتی ہے:</p>
+        <div class="formula-box">
+            بنیادی اصول: Subject (فاعل/کام کرنے والا) + Helping Verb (مددگار فعل: Will/Shall) + Verb (پہلی فارم) + Object (مفعول/جس پر کام ہو)۔
+        </div>
+
+        <!-- 6. Helping Verb -->
+        <h2>6. مددگار فعل (Helping Verbs)</h2>
+        <p>اس ٹینس میں دو مددگار فعل استعمال ہوتے ہیں:</p>
+        <ul>
+            <li><strong>Will (ول):</strong> یہ تمام فاعلین (He, She, It, They, You اور Singular/Plural Nouns) کے ساتھ استعمال ہوتا ہے۔</li>
+            <li><strong>Shall (شیل):</strong> یہ عام طور پر متکلم کے صیغوں (I اور We) کے ساتھ استعمال ہوتا ہے۔</li>
+        </ul>
+
+        <!-- 7. Verb کی کون سی Form استعمال ہوگی -->
+        <h2>7. فعل کی کون سی فارم استعمال ہوگی؟ (Form of Verb)</h2>
+        <p>اس ٹینس میں ہمیشہ **فعل کی پہلی فارم (First Form of Verb / Base Form)** استعمال ہوتی ہے؛ جیسے: Go (گو), Read (ریڈ), Write (رائٹ)۔</p>
+
+        <!-- 8. Affirmative Sentences -->
+        <h2>8. مثبت جملے (Affirmative / Positive Sentences)</h2>
+        <p>مثبت جملے بنانے کا طریقہ یہ ہے کہ سب سے پہلے فاعل (Subject)، پھر Will یا Shall، پھر ورب کی پہلی فارم اور آخر میں مفعول (Object) لگایا جاتا ہے۔</p>
+        <div class="example-box">
+            <p><strong>اردو:</strong> زید کل مدرسہ جائے گا۔</p>
+            <p><strong>English:</strong> Zaid will go to the Madrassah tomorrow.</p>
+            <div class="arabic-text">عربی مثال: سَيَذْهَبُ زَيْدٌ إِلَى المَدْرَسَةِ غَدًا۔</div>
+        </div>
+
+        <!-- 9. Negative Sentences -->
+        <h2>9. منفی جملے (Negative Sentences)</h2>
+        <p>منفی جملے بنانے کے لیے مددگار فعل (Will یا Shall) کے فوراً بعد **Not (ناٹ)** کا اضافہ کیا جاتا ہے۔</p>
+        <div class="formula-box">فارمولا: Subject + Will/Shall + **Not** + Verb (1st Form) + Object</div>
+        <div class="example-box">
+            <p><strong>اردو:</strong> طلباء آج سبق نہیں یاد کریں گے۔</p>
+            <p><strong>English:</strong> The students will not learn the lesson today.</p>
+            <div class="arabic-text">عربی مثال: لَا يَحْفَظُ الطَّلَبَةُ الدَّرْسَ اليَوْمَ۔</div>
+        </div>
+
+        <!-- 10. Interrogative Sentences -->
+        <h2>10. سوالیہ جملے (Interrogative Sentences)</h2>
+        <p>سوالیہ جملے بنانے کے لیے مددگار فعل (Will یا Shall) کو فقرے کے شروع میں (فاعل سے پہلے) لے آیا جاتا ہے اور آخر میں سوالیہ نشان (?) لگایا جاتا ہے۔</p>
+        <div class="formula-box">فارمولا: **Will/Shall** + Subject + Verb (1st Form) + Object + ?</div>
+        <div class="example-box">
+            <p><strong>اردو:</strong> کیا تم قرآن پاک کی تلاوت کرو گے؟</p>
+            <p><strong>English:</strong> Will you recite the Holy Quran?</p>
+            <div class="arabic-text">عربی مثال: هَلْ تَقْرَأُ القُرْآنَ الكَرِيمَ؟</div>
+        </div>
+
+        <!-- 11. Negative Interrogative -->
+        <h2>11. منفی سوالیہ جملے (Negative Interrogative Sentences)</h2>
+        <p>ایسے جملے جن میں سوال بھی پوچھا جائے اور انکار بھی ہو، ان میں فاعل (Subject) کے فوراً بعد **Not** لگایا جاتا ہے۔</p>
+        <div class="example-box">
+            <p><strong>اردو:</strong> کیا استاد صاحب آج کلاس نہیں پڑھائیں گے؟</p>
+            <p><strong>English:</strong> Will the teacher **not** teach the class today?</p>
+            <div class="arabic-text">عربی مثال: أَلَا يُدَرِّسُ الأُستَاذُ الحَاصِلَ (الفَصْلَ) اليَوْمَ؟</div>
+        </div>
+
+        <!-- 12. اردو + English مثالیں -->
+        <h2>12. مزید اردو، انگلش اور عربی مثالیں (More Examples)</h2>
+        <div class="example-box">
+            <p><strong>1. اردو:</strong> ہم آنے والے سال حج پر جائیں گے۔</p>
+            <p><strong>English:</strong> We will go for Hajj next year.</p>
+            <div class="arabic-text">عربی مثال: نَحْنُ نَذْهَبُ (سَنَذْهَبُ) إِلَى الحَجِّ فِي السَّنَةِ القَادِمَةِ۔</div>
+        </div>
+        <div class="example-box">
+            <p><strong>2. اردو:</strong> سورج مشرق سے نکلے گا۔</p>
+            <p><strong>English:</strong> The sun will rise from the east.</p>
+            <div class="arabic-text">عربی مثال: تَطْلُعُ (سَتَطْلُعُ) الشَّمْسُ مِنَ المَشْرِقِ۔</div>
+        </div>
+
+        <!-- 13. Signal/Time Words -->
+        <h2>13. وقت بتانے والے الفاظ (Signal / Time Words)</h2>
+        <p>ان الفاظ سے اندازہ ہوتا ہے کہ جملہ فیوچر انڈیفینیٹ کا ہے:</p>
+        <ul>
+            <li><strong>Tomorrow (ٹمورو):</strong> آنے والا کل (عربی: غَدًا)</li>
+            <li><strong>Next (نیکسٹ):</strong> اگلا (عربی: القَادِم / المُقْبِل)</li>
+            <li><strong>Soon (سون):</strong> جلد ہی (عربی: قَرِيبًا)</li>
+        </ul>
+
+        <!-- 14. عام غلطیاں (Common Mistakes) -->
+        <h2>14. طلباء کی عام غلطیاں (Common Mistakes)</h2>
+        <p>مدارس کے طلباء اکثر درج ذیل غلطیاں کرتے ہیں، جن سے بچنا ضروری ہے:</p>
+        <ul>
+            <li><strong>غلطی:</strong> He will goes to Madrassah. (ویس کے ساتھ S/ES کا اضافہ کرنا)۔<br><strong>درست:</strong> He will **go** to Madrassah. (مددگار فعل کے بعد ہمیشہ ورب کی بنیادی یا پہلی فارم آتی ہے)۔</li>
+        </ul>
+
+        <!-- 15. دوسرے Tenses سے فرق اور عربی گرامر سے موازنہ -->
+        <h2>15. دوسرے Tenses سے فرق اور عربی گرامر سے تقابل (Comparison & Contrast)</h2>
+        
+        <div class="box-arabic">
+            <h3>عربی گرامر کے ساتھ موازنہ (Comparison with Arabic Grammar)</h3>
+            <p>عربی زبان میں فعلِ مضارع کے شروع میں حرفِ استقبال **(سـ)** یا **(سَوْفَ)** بڑھا کر اسے خاص مستقبل کے معنی میں تبدیل کیا جاتا ہے؛ جیسے: <strong>يَذْهَبُ</strong> (وہ جاتا ہے/جائے گا) سے <strong>سَيَذْهَبُ</strong> یا <strong>سَوْفَ يَذْهَبُ</strong> (وہ عنقریب جائے گا)۔ انگریزی میں اس کے لیے **Will** استعمال ہوتا ہے۔</p>
+            <div class="arabic-text">العربية: سَيَذْهَبُ حَامِدٌ إِلَى المَدْرَسَةِ = English: Hamid will go to the school.</div>
+        </div>
+
+        <!-- Practice Exercises -->
+        <h2>16. مشقی سوالات (Practice Exercises)</h2>
+        <p>طلباء درج ذیل جملوں کا انگریزی اور عربی میں ترجمہ کر کے اپنی کاپی میں مشق کریں:</p>
+        <ul>
+            <li>1. حامد کل مکتب جائے گا۔ (English: Hamid will go to Maktab tomorrow. | Arabic: سَيَذْهَبُ حَامِدٌ إِلَى المَكْتَبِ غَدًا)</li>
+            <li>2. کیا تم کل سبق یاد کرو گے؟ (English: Will you learn the lesson tomorrow? | Arabic: هَلْ تَحْفَظُ الدَّرْسَ غَدًا؟)</li>
+            <li>3. ہم جھوٹ نہیں بولیں گے۔ (English: We will not tell a lie. | Arabic: لَنْ نَكْذِبَ)</li>
+        </ul>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
