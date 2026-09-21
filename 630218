@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پاسٹ کلاس 2: پاسٹ کنٹینیوس ٹینس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fde8e8;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2980b9;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-right: 4px solid #3498db;
+            padding-right: 10px;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            padding-right: 20px;
+        }
+
+        /* ٹیبل ڈیزائن */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: right;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* عربی مثالوں کا خاص بکس */
+        .box-arabic {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .box-arabic h3 {
+            color: #16a085;
+            margin-bottom: 8px;
+        }
+
+        .arabic-example {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #0e6251;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #1abc9c;
+        }
+
+        .formula-box {
+            background: #f4f6f7;
+            border-left: 4px solid #2c3e50;
+            padding: 12px 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 16px;
+            direction: ltr;
+            text-align: left;
+        }
+
+        .quiz-section {
+            background: #fdfefe;
+            border: 2px dashed #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="past_dashboard.html" class="nav-btn">⬅️ پاسٹ ڈیش بورڈ (Past Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>پاسٹ کلاس 2: پاسٹ کنٹینیوس ٹینس (Past Continuous Tense)</h1>
+        <p class="english-sub">(فعل ماضی استمراری / Past Progressive Tense)</p>
+
+        <!-- 1. اردو میں تعریف اور انگلش ڈیفینیشن -->
+        <section>
+            <h2>1. ٹینس کا نام اور تعریف (Tense Name & Definition)</h2>
+            <p><strong>اردو میں تعریف:</strong> ایسا زمانہ (Tense) جس میں گزرے ہوئے وقت (Past time) میں کسی کام کا جاری رہنا پایا جائے (مگر اس کے ختم ہونے کا وقت معلوم نہ ہو)۔ اس کی پہچان یہ ہے کہ اردو جملوں کے آخر میں <strong>رہا تھا، رہی تھی، رہے تھے</strong> وغیرہ آتا ہے۔ (جیسے: وہ خط لکھ رہا تھا)</p>
+            <p><strong>English Definition (انگلش تعریف):</strong> The Past Continuous Tense (پاسٹ کنٹینیوس ٹینس) is used to describe an action that was ongoing (جاری تھا) at a specific moment in the past (ماضی میں)۔</p>
+            
+            <div class="box-arabic">
+                <h3>عربی گرامر کے ساتھ تقابل (Comparison with Arabic Grammar):</h3>
+                <p>عربی زبان میں جب ماضی میں کسی کام کا جاری رہنا بتانا مقصود ہو تو عام طور پر <strong>كَانَ</strong> کے ساتھ فعل مضارع لایا جاتا ہے (جس کو عربی میں **فعل ماضی استمراری** یا جملہ فعلیہ خبریہ کہا جاتا ہے، جیسے: <em>كَانَ يَكْتُبُ</em> - وہ لکھ رہا تھا)۔ انگریزی میں بھی بالکل یہی ترتیب ہے کہ پہلے 'Was / Were' (جو کہ 'Was' دراصل 'كان' کا ترجمہ ہے) اور پھر ورب کے ساتھ 'ing' لایا جاتا ہے۔</p>
+                <div class="arabic-example">عربی مثال: كَانَ زَيْدٌ يَكْتُبُ الرِّسَالَةَ (زید خط لکھ رہا تھا)</div>
+            </div>
+        </section>
+
+        <!-- 2. استعمال -->
+        <section>
+            <h2>2. استعمال (Uses - استعمالات)</h2>
+            <ul>
+                <li>ماضی میں کسی جاری کام کو ظاہر کرنے کے لیے (Ongoing past action):<br>
+                    - اردو: بارش ہو رہی تھی۔<br>
+                    - English: It was raining.<br>
+                    <div class="arabic-example">عربی مثال: كَانَتِ السَّمَاءُ تُمْطِرُ</div>
+                </li>
+                <li>ماضی میں ایک کام کے دوران دوسرے کام کے واقع ہونے پر:<br>
+                    - اردو: جب میں سو رہا تھا، گھنٹی بجی۔<br>
+                    - English: While I was sleeping, the bell rang.<br>
+                    <div class="arabic-example">عربی مثال: بَيْنَمَا كُنْتُ نَائِمًا، جَرَسَ الجَرَسُ</div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 3. فارمولا، ہیلپنگ ورب اور ورب کی فارم -->
+        <section>
+            <h2>3. فارمولا، ہیلپنگ ورب اور ورب کی فارم (Formula, Helping Verb & Verb Form)</h2>
+            <p><strong>Helping Verb (امدادی فعل):</strong> اس میں دو امدادی فعل استعمال ہوتے ہیں: **Was** اور **Were**۔<br>
+            - **Was** کا استعمال: He, She, It, I اور واحد نام (Singular noun) کے ساتھ۔<br>
+            - **Were** کا استعمال: We, You, They اور جمع ناموں (Plural nouns) کے ساتھ۔</p>
+            <p><strong>Verb Form (فعل کی شکل):</strong> اس میں ہمیشہ **1st Form + ing** (پہلی فارم کے ساتھ آئی این جی، جسے عربی میں اسم الفاعل یا صیغہ استمرار سمجھ لیں) استعمال ہوتی ہے۔</p>
+            
+            <div class="formula-box">
+                Affirmative (مثبت): Subject (فاعل) + was/were + Verb (1st Form) + ing + Object (مفعول)<br>
+                Negative (منفی): Subject + was/were + not + Verb (1st Form) + ing + Object<br>
+                Interrogative (سوالیہ): Was/Were + Subject + Verb (1st Form) + ing + Object?
+            </div>
+        </section>
+
+        <!-- 4. چاروں اقسام کی مثالیں (اردو، انگلش، عربی تینوں کے ساتھ) -->
+        <section>
+            <h2>4. جملوں کی چار اقسام اور تینوں زبانوں میں مثالیں (Sentence Types & Examples)</h2>
+            
+            <table>
+                <tr>
+                    <th>قسم (Type)</th>
+                    <th>اردو + English مثال (Urdu & English Example)</th>
+                    <th>عربی موازنہ (Arabic Equivalent)</th>
+                </tr>
+                <tr>
+                    <td><strong>Affirmative (مثبت)</strong></td>
+                    <td>طلباء سبق پڑھ رہے تھے۔<br><em>Students were reading the lesson.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">كَانَ الطَّلَبَةُ يَقْرَؤُونَ الدَّرْسَ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative (منفی)</strong></td>
+                    <td>طلباء سبق نہیں پڑھ رہے تھے۔<br><em>Students were not reading the lesson.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">لَمْ يَكُنِ الطَّلَبَةُ يَقْرَؤُونَ الدَّرْسَ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Interrogative (سوالیہ)</strong></td>
+                    <td>کیا طلباء سبق پڑھ رہے تھے؟<br><em>Were students reading the lesson?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">هَلْ كَانَ الطَّلَبَةُ يَقْرَؤُونَ الدَّرْسَ؟</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative Interrogative (منفی و سوالیہ)</strong></td>
+                    <td>کیا طلباء سبق نہیں پڑھ رہے تھے؟<br><em>Were students not reading the lesson?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">أَمَا كَانَ الطَّلَبَةُ يَقْرَؤُونَ الدَّرْسَ؟</div></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 5. سگنل ورڈز -->
+        <section>
+            <h2>5. سگنل یا ٹائم ورڈز (Signal / Time Words)</h2>
+            <p>یہ الفاظ جملے میں آئیں تو پاسٹ کنٹینیوس کی نشاندہی کرتے ہیں:</p>
+            <p><strong>At that time</strong> (اس وقت)، <strong>At this time yesterday</strong> (گزشتہ کل اس وقت)، <strong>While</strong> (جبکہ / اس دوران)، <strong>When</strong> (جب)۔</p>
+        </section>
+
+        <!-- 6. عام غلطیاں -->
+        <section>
+            <h2>6. طلباء کی عام غلطیاں (Common Mistakes & غلطیاں)</h2>
+            <ul>
+                <li><strong>غلطی 1:</strong> 'Was' کی جگہ 'Were' یا 'Were' کی جگہ 'Was' لگا دینا (جیسے: <em>We was playing</em> جو کہ غلط ہے)۔<br><strong>صحیح طریقہ:</strong> جمع فاعل (We, You, They) کے ساتھ ہمیشہ **Were** آئے گا (<em>We were playing</em>)۔</li>
+                <li><strong>غلطی 2:</strong> ورب کے ساتھ 'ing' نہ لگانا یا 2nd/3rd فارم استعمال کرنا۔<br><strong>صحیح طریقہ:</strong> ہمیشہ پہلی فارم کے ساتھ **ing** لازمی آئے گا۔</li>
+            </ul>
+        </section>
+
+        <!-- 7. دوسرے Tenses سے فرق -->
+        <section>
+            <h2>7. دوسرے Tenses سے فرق (Difference from Other Tenses)</h2>
+            <p>پاسٹ انڈیفینیٹ (Past Indefinite) میں کام کے مکمل ہونے کا ذکر ہوتا ہے (جیسے: <em>He ate an apple</em> - اس نے سیب کھایا)، جبکہ پاسٹ کنٹینیوس (Past Continuous) میں کام کے ماضی میں جاری رہنے کا ذکر ہوتا ہے (جیسے: <em>He was eating an apple</em> - وہ سیب کھا رہا تھا)۔</p>
+        </section>
+
+        <!-- 8. پریکٹس ایکسرسائز اور کوئز -->
+        <section class="quiz-section">
+            <h2>8. پریکٹس ایکسرسائز اور کلاس کوئز (Practice Exercises & Quiz)</h2>
+            <p>مدارس کے طلباء کے لیے مشق: ذیل کے جملوں کا انگریزی اور عربی میں ترجمہ کریں:</p>
+            <ol>
+                <li>استاد صاحب سبق سمجھا رہے تھے۔ (English: The teacher was explaining the lesson. | Arabic: كَانَ الأُسْتَاذُ يَشْرَحُ الدَّرْسَ)</li>
+                <li>کیا وہ پانی پی رہا تھا؟ (English: Was he drinking water? | Arabic: هَلْ كَانَ يَشْرَبُ المَاءَ؟)</li>
+                <li>ہم مدرسے میں نہیں دوڑ رہے تھے۔ (English: We were not running in the Madrassah. | Arabic: مَا كُنَّا نَجْرِي فِي المَدْرَسَةِ)</li>
+            </ol>
+            <p style="margin-top: 15px; color: #27ae60; font-weight: bold;">ماشاءاللہ! آپ نے پاسٹ کلاس 2 کو مکمل اردو، انگریزی اور عربی موازنہ کے ساتھ سمجھ لیا ہے۔ اب اگلی کلاس کی طرف قدم بڑھائیں۔</p>
+        </section>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
