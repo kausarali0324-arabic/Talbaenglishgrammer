@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پریزنٹ کلاس 2: پریزنٹ کنٹینیوس ٹینس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fde8e8;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2980b9;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-right: 4px solid #3498db;
+            padding-right: 10px;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            padding-right: 20px;
+        }
+
+        /* ٹیبل ڈیزائن */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: right;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* عربی مثالوں کا خاص بکس */
+        .box-arabic {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .box-arabic h3 {
+            color: #16a085;
+            margin-bottom: 8px;
+        }
+
+        .arabic-example {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #0e6251;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #1abc9c;
+        }
+
+        .formula-box {
+            background: #f4f6f7;
+            border-left: 4px solid #2c3e50;
+            padding: 12px 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 16px;
+            direction: ltr;
+            text-align: left;
+        }
+
+        .quiz-section {
+            background: #fdfefe;
+            border: 2px dashed #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        <div class="header-nav">
+            <a href="present_dashboard.html" class="nav-btn">⬅️ پریزنٹ ڈیش بورڈ (Present Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>پریزنٹ کلاس 2: پریزنٹ کنٹینیوس ٹینس (Present Continuous Tense)</h1>
+        <p class="english-sub">(فعل حال جاری / Present Progressive Tense)</p>
+
+        <!-- 1. ٹینس کا نام اور اردو تعریف -->
+        <section>
+            <h2>1. ٹینس کا نام اور تعریف (Tense Name & Definition)</h2>
+            <p><strong>اردو میں تعریف:</strong> ایسا زمانہ (Tense) جس میں موجودہ وقت (Present time) میں کسی کام کا جاری ہونا (کوئی کام تسلسل کے ساتھ ہو رہا ہو) پایا جائے۔ اس کی سب سے بڑی پہچان یہ ہے کہ اردو جملوں کے آخر میں <strong>رہا ہے، رہی ہے، رہے ہیں، رہا ہوں</strong> وغیرہ آتا ہے۔ (جیسے: وہ کتاب پڑھ رہا ہے)</p>
+            <p><strong>English Definition (انگلش تعریف):</strong> The Present Continuous Tense (پریزنٹ کنٹینیوس ٹینس) is used to describe an action that is ongoing (جاری ہے) at the current moment of speaking (بولنے کے وقت)۔</p>
+            
+            <div class="box-arabic">
+                <h3>عربی گرامر کے ساتھ تقابل (Comparison with Arabic Grammar):</h3>
+                <p>عربی زبان میں جب موجودہ وقت میں کسی کام کا جاری ہونا بتانا مقصود ہو تو عام طور پر <strong>اسم الفاعل</strong> یا <strong>فعل مضارع</strong> لایا جاتا ہے (جیسے: <em>هُوَ يَكْتُبُ الآنَ</em> - وہ اس وقت لکھ رہا ہے)۔ انگریزی میں بھی بالکل یہی ترتیب ہے کہ پہلے 'Is / Am / Are' (جو کہ حال کا مفہوم دیتے ہیں) اور پھر ورب کے ساتھ 'ing' (جو کہ تسلسل کو بتاتا ہے) لایا جاتا ہے۔</p>
+                <div class="arabic-example">عربی مثال: هُوَ يَكْتُبُ الرِّسَالَةَ الآنَ (وہ اس وقت خط لکھ رہا ہے)</div>
+            </div>
+        </section>
+
+        <!-- 2. استعمال -->
+        <section>
+            <h2>2. استعمال (Uses - استعمالات)</h2>
+            <ul>
+                <li>موجودہ وقت میں جاری کام کے لیے (Action happening right now):<br>
+                    - اردو: طالبعلم سبق یاد کر رہا ہے۔<br>
+                    - English: The student is learning the lesson.<br>
+                    <div class="arabic-example">عربی مثال: الطَّالِبُ يَحْفَظُ الدَّرْسَ الآنَ</div>
+                </li>
+                <li>قریب مستقبل کے ایسے ارادے کے لیے جو طے شدہ ہوں (Future arrangement):<br>
+                    - اردو: ہم کل لاہور جا رہے ہیں۔<br>
+                    - English: We are going to Lahore tomorrow.<br>
+                    <div class="arabic-example">عربی مثال: نَحْنُ مُسَافِرُونَ إِلَى لَاهُورَ غَدًا</div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 3. فارمولا، ہیلپنگ ورب اور ورب کی فارم -->
+        <section>
+            <h2>3. فارمولا، ہیلپنگ ورب اور ورب کی فارم (Formula, Helping Verb & Verb Form)</h2>
+            <p><strong>Helping Verb (امدادی فعل):</strong> اس میں تین امدادی افعال استعمال ہوتے ہیں: **Is**, **Am**, **Are**。<br>
+            - **Am** کا استعمال: صرف ضمیر **I** (میں) کے ساتھ۔<br>
+            - **Is** کا استعمال: He, She, It اور واحد نام (Singular noun) کے ساتھ۔<br>
+            - **Are** کا استعمال: We, You, They اور جمع ناموں (Plural nouns) کے ساتھ۔</p>
+            <p><strong>Verb Form (فعل کی شکل):</strong> اس میں ہمیشہ **1st Form + ing** (پہلی فارم کے ساتھ آئی این جی، جسے عربی میں اسم الفاعل سمجھ لیں) استعمال ہوتی ہے۔</p>
+            
+            <div class="formula-box">
+                Affirmative (مثبت): Subject (فاعل) + is/am/are + Verb (1st Form) + ing + Object (مفعول)<br>
+                Negative (منفی): Subject + is/am/are + not + Verb (1st Form) + ing + Object<br>
+                Interrogative (سوالیہ): Is/Am/Are + Subject + Verb (1st Form) + ing + Object?
+            </div>
+        </section>
+
+        <!-- 4. چاروں اقسام کی مثالیں (اردو، انگلش، عربی تینوں کے ساتھ) -->
+        <section>
+            <h2>4. جملوں کی چار اقسام اور تینوں زبانوں میں مثالیں (Sentence Types & Examples)</h2>
+            
+            <table>
+                <tr>
+                    <th>قسم (Type)</th>
+                    <th>اردو + English مثال (Urdu & English Example)</th>
+                    <th>عربی موازنہ (Arabic Equivalent)</th>
+                </tr>
+                <tr>
+                    <td><strong>Affirmative (مثبت)</strong></td>
+                    <td>استاد صاحب سبق سمجھا رہے ہیں۔<br><em>The teacher is explaining the lesson.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">الأُسْتَاذُ يَشْرَحُ الدَّرْسَ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative (منفی)</strong></td>
+                    <td>استاد صاحب سبق نہیں سمجھا رہے ہیں۔<br><em>The teacher is not explaining the lesson.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">لَيْسَ الأُسْتَاذُ يَشْرَحُ الدَّرْسَ / لَا يَشْرَحُ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Interrogative (سوالیہ)</strong></td>
+                    <td>کیا استاد صاحب سبق سمجھا رہے ہیں؟<br><em>Is the teacher explaining the lesson?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">هَلْ يَشْرَحُ الأُسْتَاذُ الدَّرْسَ؟</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative Interrogative (منفی و سوالیہ)</strong></td>
+                    <td>کیا استاد صاحب سبق نہیں سمجھا رہے ہیں؟<br><em>Is the teacher not explaining the lesson?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">أَمَا يَشْرَحُ الأُسْتَاذُ الدَّرْسَ؟</div></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 5. سگنل ورڈز -->
+        <section>
+            <h2>5. سگنل یا ٹائم ورڈز (Signal / Time Words)</h2>
+            <p>یہ الفاظ جملے میں آئیں تو پریزنٹ کنٹینیوس کی نشاندہی کرتے ہیں:</p>
+            <p><strong>Now</strong> (اب)، <strong>At present</strong> (اس وقت)، <strong>At this moment</strong> (اس لمحے)، <strong>Look!</strong> (دیکھو!)، <strong>Listen!</strong> (سنو!)۔</p>
+        </section>
+
+        <!-- 6. عام غلطیاں -->
+        <section>
+            <h2>6. طلباء کی عام غلطیاں (Common Mistakes & غلطیاں)</h2>
+            <ul>
+                <li><strong>غلطی 1:</strong> 'Is', 'Am', 'Are' کے بعد ورب کی پہلی یا دوسری فارم لگا دینا (جیسے: <em>He is go</em> جو کہ غلط ہے)۔<br><strong>صحیح طریقہ:</strong> امدادی فعل کے بعد ہمیشہ ورب کی پہلی فارم کے ساتھ **ing** لازمی آئے گا (<em>He is going</em>)۔</li>
+                <li><strong>غلطی 2:</strong> فاعل کے لحاظ سے غلط امدادی فعل چن لینا (جیسے: <em>They is playing</em> جو کہ غلط ہے)۔<br><strong>صحیح طریقہ:</strong> جمع فاعل (They) کے ساتھ ہمیشہ **Are** آئے گا (<em>They are playing</em>)۔</li>
+            </ul>
+        </section>
+
+        <!-- 7. دوسرے Tenses سے فرق -->
+        <section>
+            <h2>7. دوسرے Tenses سے فرق (Difference from Other Tenses)</h2>
+            <p>پریزنٹ انڈیفینیٹ (Present Indefinite) میں روٹین اور عادت کا ذکر ہوتا ہے (جیسے: <em>He writes</em> - وہ لکھتا ہے)، جبکہ پریزنٹ کنٹینیوس (Present Continuous) میں کام کے جاری ہونے کا بیان ہوتا ہے (جیسے: <em>He is writing</em> - وہ لکھ رہا ہے)۔</p>
+        </section>
+
+        <!-- 8. پریکٹس ایکسرسائز -->
+        <section class="quiz-section">
+            <h2>8. پریکٹس ایکسرسائز (Practice Exercises)</h2>
+            <p>مدارس کے طلباء کے لیے مشق: ذیل کے جملوں کا انگریزی اور عربی میں ترجمہ کریں:</p>
+            <ol>
+                <li>لڑکے میدان میں کھیل رہے ہیں۔ (English: The boys are playing in the playground. | Arabic: الأَوْلَادُ يَلْعَبُونَ فِي المَلْعَبِ)</li>
+                <li>کیا وہ پانی پی رہا ہے؟ (English: Is he drinking water? | Arabic: هَلْ يَشْرَبُ المَاءَ؟)</li>
+                <li>میں قرآن پاک نہیں پڑھ رہا ہوں۔ (English: I am not reading the Holy Quran. | Arabic: لَا أَقْرَأُ القُرْآنَ الكَرِيمَ)</li>
+            </ol>
+            <p style="margin-top: 15px; color: #27ae60; font-weight: bold;">ماشاءاللہ! آپ نے پریزنٹ کلاس 2 کو مکمل اردو، انگریزی اور عربی موازنہ کے ساتھ سمجھ لیا ہے۔ اب اگلی کلاس (پریزنٹ پرفেকٹ) کی طرف قدم بڑھائیں۔</p>
+        </section>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
