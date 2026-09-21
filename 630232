@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پریزنٹ کلاس 3: پریزنٹ پرفেকٹ ٹینس - کوثر علی گرامر والا</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ہیڈر نیویگیشن */
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            gap: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .nav-btn {
+            background: #e0e0e0;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: #bdc3c7;
+        }
+
+        .creator-tag {
+            font-size: 14px;
+            color: #e74c3c;
+            font-weight: bold;
+            background: #fde8e8;
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .english-sub {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #2980b9;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border-right: 4px solid #3498db;
+            padding-right: 10px;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            padding-right: 20px;
+        }
+
+        /* ٹیبل ڈیزائن */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: right;
+            font-size: 15px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* عربی مثالوں کا خاص بکس */
+        .box-arabic {
+            background: #e8f8f5;
+            border: 1px solid #a3e4d7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .box-arabic h3 {
+            color: #16a085;
+            margin-bottom: 8px;
+        }
+
+        .arabic-example {
+            font-family: 'Amiri', 'Traditional Arabic', serif;
+            font-size: 18px;
+            color: #0e6251;
+            background: #ffffff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border-right: 3px solid #1abc9c;
+        }
+
+        .formula-box {
+            background: #f4f6f7;
+            border-left: 4px solid #2c3e50;
+            padding: 12px 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 16px;
+            direction: ltr;
+            text-align: left;
+        }
+
+        .quiz-section {
+            background: #fdfefe;
+            border: 2px dashed #3498db;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .footer-copyright {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- ہیڈر نیویگیشن -->
+        
+        <div class="header-nav">
+            <a href="present_dashboard.html" class="nav-btn">⬅️ پریزنٹ ڈیش بورڈ (Present Dashboard)</a>
+            <span class="creator-tag">پیشکش: کوثر علی گرامر والا</span>
+            <a href="index.html" class="nav-btn">🏠 مین ہوم (Main Home)</a>
+        </div>
+
+        <h1>پریزنٹ کلاس 3: پریزنٹ پرفেকٹ ٹینس (Present Perfect Tense)</h1>
+        <p class="english-sub">(فعل حال قریب / Present Perfect Tense)</p>
+
+        <!-- 1. ٹینس کا نام اور اردو تعریف -->
+        <section>
+            <h2>1. ٹینس کا نام اور تعریف (Tense Name & Definition)</h2>
+            <p><strong>اردو میں تعریف:</strong> ایسا زمانہ (Tense) جس میں موجودہ وقت (Present time) میں کسی کام کا مکمل ہونا پایا جائے (یعنی وہ کام ابھی حال ہی میں ختم ہوا ہو)۔ اس کی سب سے بڑی پہچان یہ ہے کہ اردو جملوں کے آخر میں <strong>चुکا ہے، چکی ہے، چکے ہیں، چکا ہوں</strong> یا <strong>آ ہے، ای ہے، اے ہیں</strong> وغیرہ آتا ہے۔ (جیسے: وہ خط لکھ چکا ہے)</p>
+            <p><strong>English Definition (انگلش تعریف):</strong> The Present Perfect Tense (پریزنٹ پرفেকٹ ٹینس) is used to express an action that has been completed recently (حالیہ مکمل ہونے والا کام) whose effect continues in the present (جس کا اثر اب بھی باقی ہو)۔</p>
+            
+            <div class="box-arabic">
+                <h3>عربی گرامر کے ساتھ تقابل (Comparison with Arabic Grammar):</h3>
+                <p>عربی زبان میں جس فعل سے ایسا ماضی قریب مراد ہو جس کا اثر حال تک باقی رہے اسے <strong>فعل ماضی قریب</strong> کہا جاتا ہے، اور اسے بنانے کے لیے فعل ماضی پر حرفِ <strong>قَدْ</strong> داخل کیا جاتا ہے (جیسے: <em>قَدْ كَتَبَ</em> - اس نے لکھ لیا ہے یا وہ لکھ چکا ہے)۔ انگریزی کا یہ **Present Perfect Tense** بالکل عربی کے فعل ماضی قریب (معہ قد) کے ہم معنی ہے۔</p>
+                <div class="arabic-example">عربی مثال: قَدْ كَتَبَ زَيْدٌ الرِّسَالَةَ (زید خط لکھ چکا ہے / لَکھ لیا ہے)</div>
+            </div>
+        </section>
+
+        <!-- 2. استعمال -->
+        <section>
+            <h2>2. استعمال (Uses - استعمالات)</h2>
+            <ul>
+                <li>ایسا کام جو ابھی حال ہی میں مکمل ہوا ہو (Recently completed actions):<br>
+                    - اردو: طالبعلم نے سبق یاد کر لیا ہے۔<br>
+                    - English: The student has learned the lesson.<br>
+                    <div class="arabic-example">عربی مثال: قَدْ حَفِظَ الطَّالِبُ الدَّرْسَ</div>
+                </li>
+                <li>ایسا ماضی کا واقعہ جس کا اثر یا اہمیت موجودہ وقت میں بھی باقی ہو (Past actions with current relevance):<br>
+                    - اردو: میں نے اپنی کتاب کھو دی ہے۔ (اس کا مطلب ہے کہ اب بھی میرے پاس نہیں ہے)<br>
+                    - English: I have lost my book.<br>
+                    <div class="arabic-example">عربی مثال: قَدْ ضَاعَ كِتَابِي</div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 3. فارمولا، ہیلپنگ ورب اور ورب کی فارم -->
+        <section>
+            <h2>3. فارمولا، ہیلپنگ ورب اور ورب کی فارم (Formula, Helping Verb & Verb Form)</h2>
+            <p><strong>Helping Verb (امدادی فعل):</strong> اس میں دو امدادی افعال استعمال ہوتے ہیں: **Has** اور **Have**۔<br>
+            - **Has** کا استعمال: He, She, It اور واحد نام (Singular noun) کے ساتھ۔<br>
+            - **Have** کا استعمال: I, We, You, They اور جمع ناموں (Plural nouns) کے ساتھ۔</p>
+            <p><strong>Verb Form (فعل کی شکل):</strong> اس میں ہمیشہ **3rd Form of Verb** (فعل کی تیسری شکل، جسے عربی میں اسم المفعول یا صیغہ تمام سمجھ لیں) استعمال ہوتی ہے۔</p>
+            
+            <div class="formula-box">
+                Affirmative (مثبت): Subject (فاعل) + has/have + Verb (3rd Form) + Object (مفعول)<br>
+                Negative (منفی): Subject + has/have + not + Verb (3rd Form) + Object<br>
+                Interrogative (سوالیہ): Has/Have + Subject + Verb (3rd Form) + Object?
+            </div>
+        </section>
+
+        <!-- 4. چاروں اقسام کی مثالیں (اردو، انگلش، عربی تینوں کے ساتھ) -->
+        <section>
+            <h2>4. جملوں کی چار اقسام اور تینوں زبانوں میں مثالیں (Sentence Types & Examples)</h2>
+            
+            <table>
+                <tr>
+                    <th>قسم (Type)</th>
+                    <th>اردو + English مثال (Urdu & English Example)</th>
+                    <th>عربی موازنہ (Arabic Equivalent)</th>
+                </tr>
+                <tr>
+                    <td><strong>Affirmative (مثبت)</strong></td>
+                    <td>استاد صاحب نے سبق پڑھایا ہے۔ (پڑھ چکے ہیں)<br><em>The teacher has taught the lesson.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">قَدْ دَرَّسَ الأُسْتَاذُ الدَّرْسَ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative (منفی)</strong></td>
+                    <td>استاد صاحب نے سبق نہیں پڑھایا ہے۔<br><em>The teacher has not taught the lesson.</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">مَا دَرَّسَ الأُسْتَاذُ الدَّرْسَ / لَمْ يُدَرِّسْ</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Interrogative (سوالیہ)</strong></td>
+                    <td>کیا استاد صاحب نے سبق پڑھایا ہے؟<br><em>Has the teacher taught the lesson?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">هَلْ دَرَّسَ الأُسْتَاذُ الدَّرْسَ؟</div></td>
+                </tr>
+                <tr>
+                    <td><strong>Negative Interrogative (منفی و سوالیہ)</strong></td>
+                    <td>کیا استاد صاحب نے سبق نہیں پڑھایا ہے؟<br><em>Has the teacher not taught the lesson?</em></td>
+                    <td><div class="arabic-example" style="margin:0; padding:4px;">أَمَا دَرَّسَ الأُسْتَاذُ الدَّرْسَ؟</div></td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 5. سگنل ورڈز -->
+        <section>
+            <h2>5. سگنل یا ٹائم ورڈز (Signal / Time Words)</h2>
+            <p>یہ الفاظ جملے میں آئیں تو پریزنٹ پرفেকٹ کی نشاندہی کرتے ہیں:</p>
+            <p><strong>Just</strong> (ابھی ابھی)، <strong>Already</strong> (پہلے ہی)، <strong>Yet</strong> (ابھی تک)، <strong>So far</strong> (ابھی تک)، <strong>Recently</strong> (حال ہی میں)۔</p>
+        </section>
+
+        <!-- 6. عام غلطیاں -->
+        <section>
+            <h2>6. طلباء کی عام غلطیاں (Common Mistakes & غلطیاں)</h2>
+            <ul>
+                <li><strong>غلطی 1:</strong> 'Has' یا 'Have' کے بعد ورب کی پہلی یا دوسری فارم لگا دینا (جیسے: <em>He has wrote</em> جو کہ غلط ہے)۔<br><strong>صحیح طریقہ:</strong> امدادی فعل کے بعد ہمیشہ ورب کی **تیسری فارم (3rd Form)** آئے گی (<em>He has written</em>)۔</li>
+                <li><strong>غلطی 2:</strong> واحد غائب (He, She, It) کے ساتھ 'Have' لگا دینا (جیسے: <em>He have gone</em> جو کہ غلط ہے)۔<br><strong>صحیح طریقہ:</strong> واحد نام اور ضمائر کے ساتھ ہمیشہ **Has** استعمال ہوگا (<em>He has gone</em>)۔</li>
+            </ul>
+        </section>
+
+        <!-- 7. دوسرے Tenses سے فرق -->
+        <section>
+            <h2>7. دوسرے Tenses سے فرق (Difference from Other Tenses)</h2>
+            <p>پریزنٹ انڈیفینیٹ (Present Indefinite) عادت کو ظاہر کرتا ہے (جیسے: <em>He eats</em> - وہ کھاتا ہے)، جبکہ پریزنٹ پرفেকٹ (Present Perfect) میں کام کے مکمل ہونے کی خبر دی جاتی ہے جس کا اثر اب بھی موجود ہو (جیسے: <em>He has eaten</em> - وہ کھا چکا ہے)۔</p>
+        </section>
+
+        <!-- 8. پریکٹس ایکسرسائز -->
+        <section class="quiz-section">
+            <h2>8. پریکٹس ایکسرسائز (Practice Exercises)</h2>
+            <p>مدارس کے طلباء کے لیے مشق: ذیل کے جملوں کا انگریزی اور عربی میں ترجمہ کریں:</p>
+            <ol>
+                <li>لڑکوں نے میدان میں کرکٹ کھیلی ہے۔ (English: The boys have played cricket in the playground. | Arabic: قَدْ لَعِبَ الأَوْلَادُ كُرَةَ القَدَمِ فِي المَلْعَبِ)</li>
+                <li>کیا تم نے قرآن پاک پڑھ لیا ہے؟ (English: Have you read the Holy Quran? | Arabic: هَلْ قَرَأْتَ القُرْآنَ الكَرِيمَ؟)</li>
+                <li>ہم نے جھوٹ نہیں بولا ہے۔ (English: We have not told a lie. | Arabic: مَا كَذَبْنَا)</li>
+            </ol>
+            <p style="margin-top: 15px; color: #27ae60; font-weight: bold;">ماشاءاللہ! آپ نے پریزنٹ کلاس 3 کو مکمل اردو، انگریزی اور عربی موازنہ کے ساتھ سمجھ لیا ہے۔ اب اگلی کلاس (پریزنٹ پرفেকٹ کنٹینیوس) کی طرف قدم بڑھائیں۔</p>
+        </section>
+
+        <!-- کاپی رائٹ نوٹس -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 کوثر علی گرامر والا (Kausar Ali Grammar Wala). جملہ حقوق محفوظ ہیں۔</p>
+            <p>اس تعلیمی مواد کا کاپی رائٹ صرف مصنف کے پاس ہے۔ بغیر اجازت تجارتی یا غیر قانونی استعمال ممنوع ہے۔ (All Rights Reserved)</p>
+        </div>
+    </div>
+
+</body>
+</html>
